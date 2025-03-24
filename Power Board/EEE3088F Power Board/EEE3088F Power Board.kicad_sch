@@ -3690,130 +3690,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -6441,7 +6317,7 @@
 	)
 	(text "Battery Charging from 9V input\nTwo charging modes"
 		(exclude_from_sim no)
-		(at 302.514 133.096 0)
+		(at 285.496 127 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -6626,7 +6502,7 @@
 		)
 		(uuid "46e725c6-e7db-487f-bf44-749972601e9b")
 	)
-	(text "- add jumpers and test points\n- check capacitor/inductor values\n- check that MOSFET doesnt disrupt Rprog reading\n- decide on LED components & colours"
+	(text "- add jumpers and test points\n- check capacitor/inductor values\n- decide on LED components & colours\n- find components for in and out caps\n- LED footprints"
 		(exclude_from_sim no)
 		(at 261.874 202.692 0)
 		(effects
@@ -6646,9 +6522,19 @@
 		)
 		(uuid "4bf9d8ec-4afe-4cd9-8a46-fccde503dfe7")
 	)
+	(text "Do capacitor and inductor values \nneed to be exact? Save budget"
+		(exclude_from_sim no)
+		(at 280.416 178.562 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4ffe14f6-c6da-4d65-99be-47811d4762a9")
+	)
 	(text "jump"
 		(exclude_from_sim no)
-		(at 340.614 143.764 0)
+		(at 341.122 123.952 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6697,6 +6583,17 @@
 			)
 		)
 		(uuid "6535b568-bdf9-4bab-8485-f165bfb6002f")
+	)
+	(text "Done:\n- Resistors and Capacitors footprints (except LM256)\n- IC footprints\n- Schottky diode and 2N7002 footprints\n\nTo Do:\n- LED footprints\n- LM256 caps and inductor?\n- ask about 0.4R resistor\n- Neaten net labels\n- relabel passive components"
+		(exclude_from_sim no)
+		(at 299.466 303.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a40f954-9081-46bf-8849-bbc6c3adbeed")
 	)
 	(text "-Double check footprint (rather import new)\n- Keep shunt branch small\n- Max curr 0.7A)-> Vshunt max = 77mV - > PGA = /2 (+-80mV or =/4 (+-160mV)\n- Check for max Pullup. Min =1.1k, typ = 3.3k"
 		(exclude_from_sim no)
@@ -6765,7 +6662,7 @@
 	)
 	(text "5V"
 		(exclude_from_sim no)
-		(at 338.074 149.098 0)
+		(at 328.93 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7080,6 +6977,16 @@
 		)
 		(uuid "eff53c04-1a23-40fe-8be3-2be09ee24307")
 	)
+	(text "Can't find basic 0.4R resistor, can only find basic 0.1R"
+		(exclude_from_sim no)
+		(at 378.206 135.382 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f3de682b-a3a8-4a2d-b6da-df56f585e1ac")
+	)
 	(text "VDD"
 		(exclude_from_sim no)
 		(at 244.602 237.744 0)
@@ -7253,12 +7160,6 @@
 		(uuid "4feedb3d-5cf1-4a90-b3e4-f540f8f7c32f")
 	)
 	(junction
-		(at 340.36 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50b52874-1c65-4ae5-8fa7-b4d47e2b4475")
-	)
-	(junction
 		(at 85.09 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7359,6 +7260,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9364bfd3-8ea6-4f9e-9300-39df6913fac2")
+	)
+	(junction
+		(at 340.36 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ac01dd6-f393-4293-9d80-e7cc91e044cb")
 	)
 	(junction
 		(at 118.11 241.3)
@@ -7782,7 +7689,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 212.09) (xy 365.76 218.44)
+			(xy 365.76 213.36) (xy 365.76 218.44)
 		)
 		(stroke
 			(width 0)
@@ -8880,6 +8787,16 @@
 		)
 		(uuid "67dbbf0c-108a-4190-b623-3af883a40055")
 	)
+	(polyline
+		(pts
+			(xy 406.4 108.585) (xy 406.4 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68071dc7-fadd-4c08-be6a-27c35b533367")
+	)
 	(wire
 		(pts
 			(xy 318.77 157.48) (xy 318.77 158.75)
@@ -8982,7 +8899,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 138.43) (xy 340.36 149.86)
+			(xy 340.36 121.92) (xy 340.36 127)
 		)
 		(stroke
 			(width 0)
@@ -9329,16 +9246,6 @@
 			(type default)
 		)
 		(uuid "8b6e554a-1316-4ed7-bd51-84c17175a37a")
-	)
-	(polyline
-		(pts
-			(xy 143.51 125.73) (xy 407.67 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d24c6fe-e04a-404c-8313-503d613ec920")
 	)
 	(polyline
 		(pts
@@ -9752,7 +9659,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 204.47) (xy 365.76 203.2)
+			(xy 365.76 205.74) (xy 365.76 203.2)
 		)
 		(stroke
 			(width 0)
@@ -9789,16 +9696,6 @@
 			(type default)
 		)
 		(uuid "ae278a64-54b3-48d9-b400-5250cb291907")
-	)
-	(polyline
-		(pts
-			(xy 407.67 125.73) (xy 336.55 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afd9de9d-640b-403f-9200-5079715cc794")
 	)
 	(wire
 		(pts
@@ -10109,6 +10006,16 @@
 			(type default)
 		)
 		(uuid "c57f4476-a416-494c-8d33-761b07e3dec3")
+	)
+	(polyline
+		(pts
+			(xy 142.875 125.73) (xy 208.915 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c63891f1-ed2b-465d-8e55-421decb093d2")
 	)
 	(wire
 		(pts
@@ -10440,16 +10347,6 @@
 		)
 		(uuid "e0ffde4b-e9ea-4217-a47a-9945a053f188")
 	)
-	(polyline
-		(pts
-			(xy 334.645 125.73) (xy 406.4 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1766106-c4b7-4cd9-a1cf-9bed593a3d81")
-	)
 	(wire
 		(pts
 			(xy 85.09 62.23) (xy 82.55 62.23)
@@ -10509,6 +10406,16 @@
 			(type default)
 		)
 		(uuid "e52bfd2b-8b04-4453-b164-3ca8637ad9db")
+	)
+	(polyline
+		(pts
+			(xy 208.915 108.585) (xy 406.4 108.585)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e57680c9-297d-43ea-98cd-86024a3671fb")
 	)
 	(wire
 		(pts
@@ -10770,6 +10677,16 @@
 		)
 		(uuid "fdc21cd3-ecf9-455f-83d1-fc870989f036")
 	)
+	(polyline
+		(pts
+			(xy 208.915 125.73) (xy 208.915 108.585)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff3936f0-0390-4c56-92db-528bb76d0d48")
+	)
 	(label "3V3 Out"
 		(at 186.69 168.91 0)
 		(effects
@@ -10841,7 +10758,7 @@
 		(uuid "0eb5aecb-0067-4817-b9dd-3404f9f42446")
 	)
 	(label "5V_Buck_Out"
-		(at 340.36 138.43 0)
+		(at 340.36 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12063,7 +11980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias"
+		(property "Footprint" "TP4056-42-ESOP8:SOIC127P600X175-9N"
 			(at 340.868 198.12 0)
 			(effects
 				(font
@@ -12072,7 +11989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121619_TOPPOWER-Nanjing-Extension-Microelectronics-TP4056-42-ESOP8_C16581.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588879072461508608"
 			(at 340.36 200.66 0)
 			(effects
 				(font
@@ -12135,8 +12052,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0c412e7e-e178-488c-ad75-deb3d07104f8")
-		(property "Reference" "U6"
+		(uuid "0b5a09e4-2d9a-45f5-9516-c4cfe510beea")
+		(property "Reference" "U8"
 			(at 456.8033 109.22 0)
 			(effects
 				(font
@@ -12154,7 +12071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
+		(property "Footprint" "DRV8837DSGR:SON50P200X200X80-9N"
 			(at 454.66 118.11 0)
 			(effects
 				(font
@@ -12181,37 +12098,37 @@
 				(hide yes)
 			)
 		)
-		(pin "7"
-			(uuid "0c01dfd7-5d25-4b21-9acc-041e488d0f92")
-		)
-		(pin "6"
-			(uuid "f17add19-fa53-49c6-9e25-de24136a858d")
-		)
-		(pin "5"
-			(uuid "b2b71926-86ca-40fa-bdcb-3034283360b5")
-		)
-		(pin "8"
-			(uuid "e07f343f-b77a-4f2d-8ab3-ea5dcb0c489c")
-		)
-		(pin "1"
-			(uuid "9e66e5ae-c829-4406-aa49-b7e2fcaaf7fa")
-		)
 		(pin "4"
-			(uuid "3fbb2c81-25e5-4a26-aea9-f1d37ea572dc")
+			(uuid "b498b28f-87c8-477b-82c9-dad7efc1c355")
 		)
 		(pin "9"
-			(uuid "58e0030b-3950-4b98-9467-4bcab1a4f801")
+			(uuid "84d10106-40cb-4955-8508-fbf5d6aecbf2")
 		)
 		(pin "2"
-			(uuid "3879f8ca-6a70-4109-b4f6-854685275fb7")
+			(uuid "cec7c932-c315-4b1d-ad50-83494f052ddf")
 		)
 		(pin "3"
-			(uuid "681f8b77-7532-44a6-9743-4311e9bbb7cf")
+			(uuid "a05d446f-fe1f-43d9-8fcf-534fc7d23884")
+		)
+		(pin "7"
+			(uuid "b0c781be-82be-41b1-90ee-6f73810e4bfb")
+		)
+		(pin "8"
+			(uuid "5a8e270d-282f-4814-b59b-17aac4e937c1")
+		)
+		(pin "1"
+			(uuid "4a8eacec-3185-4216-989b-affb35258e18")
+		)
+		(pin "5"
+			(uuid "9643aaad-27bc-40b7-b7a6-e84027904f86")
+		)
+		(pin "6"
+			(uuid "a91c7b8b-8256-4fe1-aaa7-a11909490f66")
 		)
 		(instances
-			(project ""
+			(project "EEE3088F Power Board"
 				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
-					(reference "U6")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -12581,7 +12498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 300.6852 177.8 0)
 			(effects
 				(font
@@ -12618,6 +12535,76 @@
 			(project ""
 				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 350.52 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12b32518-ba1a-4e3f-bf26-687931b77577")
+		(property "Reference" "R14"
+			(at 353.06 199.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2k7"
+			(at 353.06 201.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 351.536 200.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 350.52 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 350.52 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fea2dade-122b-4dbc-a499-1a88b0a1e052")
+		)
+		(pin "2"
+			(uuid "f066c96b-e960-4e82-a362-e7dd3b3f882f")
+		)
+		(instances
+			(project "EEE3088F Power Board"
+				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -12889,42 +12876,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 331.47 219.71 90)
+		(lib_id "Device:R_US")
+		(at 340.36 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "179321ee-80b2-4f31-b9a8-ff18d389e60a")
-		(property "Reference" "R6"
-			(at 331.47 213.36 90)
+		(uuid "16316997-3604-4af5-b66a-d07f52968a2b")
+		(property "Reference" "R19"
+			(at 342.9 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100R"
-			(at 331.47 215.9 90)
+		(property "Value" "0.1R"
+			(at 342.9 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "1206W4F1000T5E"
-			(at 331.47 221.488 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705873880702976"
-			(at 331.47 219.71 0)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 341.376 146.304 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12932,8 +12912,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 331.47 219.71 0)
+		(property "Datasheet" "~"
+			(at 340.36 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 340.36 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12942,15 +12931,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "98e74436-9f09-44b3-a2cd-807462d20457")
+			(uuid "4264fcd9-45e4-479f-93c4-c30178eb4c1a")
 		)
 		(pin "2"
-			(uuid "373384a8-bbbe-4327-8c68-632f75137045")
+			(uuid "c1fe0768-509f-4068-97cd-845001a6e942")
 		)
 		(instances
-			(project ""
+			(project "EEE3088F Power Board"
 				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
-					(reference "R6")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -13188,7 +13177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
+		(property "Footprint" "DRV8837DSGR:SON50P200X200X80-9N"
 			(at 453.39 71.12 0)
 			(effects
 				(font
@@ -13464,6 +13453,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 234.95 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21813dac-1658-43c6-91b2-179e5f457f77")
+		(property "Reference" "R22"
+			(at 237.49 232.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 237.49 234.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 235.966 233.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 234.95 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "304d1283-541b-418a-8891-371afd4809c3")
+		)
+		(pin "2"
+			(uuid "e52fc168-cdac-4204-8017-ca09b78f8ac4")
+		)
+		(instances
+			(project "EEE3088F Power Board"
+				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Driver_Motor:DRV8837")
 		(at 534.67 49.53 0)
 		(unit 1)
@@ -13491,7 +13550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
+		(property "Footprint" "DRV8837DSGR:SON50P200X200X80-9N"
 			(at 534.67 71.12 0)
 			(effects
 				(font
@@ -13963,76 +14022,6 @@
 			(project ""
 				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
 					(reference "R_Ishunt")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 365.76 208.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "28e1262c-50e4-4692-8dd3-0687b581a737")
-		(property "Reference" "R5"
-			(at 368.3 207.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5k6"
-			(at 368.3 209.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0805W8F5601T5E"
-			(at 363.982 208.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706617560436736"
-			(at 365.76 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 365.76 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f0dbcd01-448f-48b4-bc86-338d563c7517")
-		)
-		(pin "2"
-			(uuid "40ccd3ec-73f6-4b3c-8442-039417a923d6")
-		)
-		(instances
-			(project ""
-				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -14536,76 +14525,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 350.52 200.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31660218-2660-4aea-b4e3-130fd71dc0af")
-		(property "Reference" "R4"
-			(at 353.06 199.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2k7"
-			(at 353.06 201.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0805W8F2701T5E"
-			(at 348.742 200.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706514447122432"
-			(at 350.52 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 350.52 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "99a8d0a5-48cf-418e-819a-acad95258964")
-		)
-		(pin "2"
-			(uuid "576afa7f-ca44-4887-9eed-3efc9255add2")
-		)
-		(instances
-			(project ""
-				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 425.45 137.16 180)
 		(unit 1)
@@ -14821,76 +14740,6 @@
 			(project "EEE3088F Power Board"
 				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
 					(reference "R_Pfb1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 318.77 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39de64f8-be44-4c76-a806-7bd4063cd15d")
-		(property "Reference" "R2"
-			(at 321.31 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 321.31 171.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 316.992 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 318.77 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 318.77 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c244103-9aef-46d6-8720-6bd9f8efb903")
-		)
-		(pin "2"
-			(uuid "4a25c602-ca3b-4087-8f68-38849adbda83")
-		)
-		(instances
-			(project ""
-				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -15252,6 +15101,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 309.88 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b044ab4-3ef6-4773-a718-7bec8d82bc5b")
+		(property "Reference" "R13"
+			(at 312.42 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 312.42 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 310.896 172.974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 309.88 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 309.88 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb61636d-9826-4a9e-a202-fd17d3546f9b")
+		)
+		(pin "2"
+			(uuid "e37e9db3-36c1-46ae-bdb4-a101017d19f1")
+		)
+		(instances
+			(project "EEE3088F Power Board"
+				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 320.04 222.25 180)
 		(unit 1)
@@ -15522,17 +15441,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Driver_Motor:DRV8837")
-		(at 535.94 95.25 0)
+		(lib_id "Device:R_US")
+		(at 340.36 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "518caec9-003a-4729-a402-0ee1c8a57e7b")
-		(property "Reference" "U7"
-			(at 538.0833 107.95 0)
+		(uuid "513e66ab-2a22-4d18-a71b-9dae5eb2a8ce")
+		(property "Reference" "R21"
+			(at 342.9 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15540,8 +15459,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DRV8837"
-			(at 538.0833 110.49 0)
+		(property "Value" "0.1R"
+			(at 342.9 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15549,8 +15468,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
-			(at 535.94 116.84 0)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 341.376 131.064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15558,8 +15477,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8837.pdf"
-			(at 535.94 95.25 0)
+		(property "Datasheet" "~"
+			(at 340.36 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15567,46 +15486,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "H-Bridge driver, 1.8A, Low Voltage, PWM input, WSON-8"
-			(at 535.94 95.25 0)
+		(property "Description" "Resistor, US symbol"
+			(at 340.36 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "6"
-			(uuid "57d7b94d-f304-4466-9516-e403a9d2bd96")
-		)
-		(pin "7"
-			(uuid "8d85886e-76e9-46c2-9081-73c75d520f43")
-		)
-		(pin "8"
-			(uuid "f83a8846-1b34-487f-afec-36b594a0962f")
 		)
 		(pin "1"
-			(uuid "2fc33f9e-5594-4af5-8ec3-294cb73eaea7")
-		)
-		(pin "5"
-			(uuid "13583e13-abb4-44ee-820a-5c66637be82a")
-		)
-		(pin "4"
-			(uuid "d07db84d-a597-4eb9-ae60-63c700874710")
-		)
-		(pin "9"
-			(uuid "d4a11d47-1b98-4828-9532-64e3cb2ab0e3")
+			(uuid "9251b837-2156-48db-b83f-b5a2f0a46c4d")
 		)
 		(pin "2"
-			(uuid "eadce391-295b-4e83-a7a0-9122a5ce8774")
-		)
-		(pin "3"
-			(uuid "ec9b924b-dafb-48df-a865-385d62014500")
+			(uuid "270296ab-e95b-4803-96a9-3e309a75deb8")
 		)
 		(instances
-			(project ""
+			(project "EEE3088F Power Board"
 				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
-					(reference "U7")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -16037,76 +15935,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 210.82 234.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c597877-d9b2-4ebe-b295-526e4a076f8c")
-		(property "Reference" "R9"
-			(at 213.36 233.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 213.36 236.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.042 234.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 210.82 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "59120978-da37-4543-adee-ab3d8e5f84fe")
-		)
-		(pin "2"
-			(uuid "3777c317-c86d-4ae1-a977-fed368d6d3b3")
-		)
-		(instances
-			(project "EEE3088F Power Board"
-				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 95.25 50.8 90)
 		(unit 1)
@@ -16202,7 +16030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 366.7252 177.8 0)
 			(effects
 				(font
@@ -16309,6 +16137,76 @@
 			(project "EEE3088F Power Board"
 				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
 					(reference "R_P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 365.76 209.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6785fc6e-e9fd-48c3-a445-58aa3953a1e9")
+		(property "Reference" "R15"
+			(at 368.3 208.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k6"
+			(at 368.3 210.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 366.776 209.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 365.76 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 365.76 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bafab7c-2ba2-402a-95a3-0528536e0c6b")
+		)
+		(pin "2"
+			(uuid "0ed19992-f11f-414a-b65e-75499e901cb5")
+		)
+		(instances
+			(project "EEE3088F Power Board"
+				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -17302,6 +17200,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 340.36 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83592579-f380-421c-81db-622ee22620de")
+		(property "Reference" "R17"
+			(at 342.9 224.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 342.9 227.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 341.376 226.314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 340.36 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 340.36 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db068995-a158-417a-8cff-297d062d511e")
+		)
+		(pin "2"
+			(uuid "5e4d5c61-dc44-45b9-a8a4-7c1491a08c2c")
+		)
+		(instances
+			(project "EEE3088F Power Board"
+				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 340.36 191.77 0)
 		(unit 1)
@@ -17429,6 +17397,76 @@
 			(project "EEE3088F Power Board"
 				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 210.82 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "845eb75a-2a0b-44db-9db2-3aedc0d70477")
+		(property "Reference" "R23"
+			(at 213.36 233.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 213.36 236.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 211.836 235.204 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 210.82 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "628de4bf-5eee-4062-9ec2-3f252c47080f")
+		)
+		(pin "2"
+			(uuid "3c156e80-f085-4bdb-b57f-b36a3cd39be3")
+		)
+		(instances
+			(project "EEE3088F Power Board"
+				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -18413,7 +18451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.wch.cn/downloads/file/301.html"
+		(property "Datasheet" "https://components101.com/sites/default/files/component_datasheet/WCH_CH224K_ENG.pdf"
 			(at 210.82 237.49 0)
 			(effects
 				(font
@@ -18468,76 +18506,6 @@
 			(project ""
 				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
 					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 309.88 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b844213-f739-4ab2-bfa6-af748486f81c")
-		(property "Reference" "R1"
-			(at 312.42 171.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 312.42 173.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 308.102 172.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 309.88 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 309.88 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a10f16ba-718c-450a-bb09-d0754c8d65f3")
-		)
-		(pin "1"
-			(uuid "5770ac7b-b1d5-4d38-a58f-f76b9c1c473e")
-		)
-		(instances
-			(project ""
-				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -18610,6 +18578,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Driver_Motor:DRV8837")
+		(at 535.94 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0562594-1091-478b-96ef-1f70181154b4")
+		(property "Reference" "U6"
+			(at 538.0833 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DRV8837"
+			(at 538.0833 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DRV8837DSGR:SON50P200X200X80-9N"
+			(at 535.94 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8837.pdf"
+			(at 535.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "H-Bridge driver, 1.8A, Low Voltage, PWM input, WSON-8"
+			(at 535.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a263f7be-7aa5-4cbf-9820-41adb203d1c8")
+		)
+		(pin "9"
+			(uuid "61b59158-030d-40cb-9fa6-5f5db725968b")
+		)
+		(pin "2"
+			(uuid "89e3646f-6fa9-4bfd-91b1-ece83c88ffd0")
+		)
+		(pin "3"
+			(uuid "6f6b02f2-7766-4eb4-9acc-fc82feab8bbe")
+		)
+		(pin "7"
+			(uuid "91b637cc-961f-463b-8676-8e9d523475e9")
+		)
+		(pin "8"
+			(uuid "726a0cdc-91d2-451e-8642-f2b8fca384ee")
+		)
+		(pin "1"
+			(uuid "9fe0f780-a14f-4c42-98cf-3ec789c854a2")
+		)
+		(pin "5"
+			(uuid "67e9dd1e-a344-481a-a033-00c9707a0475")
+		)
+		(pin "6"
+			(uuid "a031e1a7-c037-4a5a-af07-577dfeea838f")
+		)
+		(instances
+			(project "EEE3088F Power Board"
+				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 95.25 69.85 0)
 		(unit 1)
@@ -18669,6 +18728,76 @@
 			(project "EEE3088F Power Board"
 				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 340.36 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a29c20e8-a913-4bcf-bdb9-5232a9c98e29")
+		(property "Reference" "R18"
+			(at 342.9 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1R"
+			(at 342.9 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 341.376 153.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 340.36 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 340.36 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99130f0f-3055-4548-9116-68dc56d46cce")
+		)
+		(pin "2"
+			(uuid "d1939de0-0101-454f-9c0c-d0b42ba4a996")
+		)
+		(instances
+			(project "EEE3088F Power Board"
+				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -19030,6 +19159,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 228.6 262.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac366b2e-88ee-4aad-9c8e-050d585e33a2")
+		(property "Reference" "R24"
+			(at 231.14 261.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6k8"
+			(at 231.14 264.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 229.616 263.144 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 228.6 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97b8596a-5c04-4ec2-b257-133704458e83")
+		)
+		(pin "2"
+			(uuid "7c99a9b5-8e01-453b-b50a-d17662d7c514")
+		)
+		(instances
+			(project "EEE3088F Power Board"
+				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 16.51 246.38 0)
 		(unit 1)
@@ -19133,7 +19332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550724090244980736"
 			(at 353.06 223.52 0)
 			(effects
 				(font
@@ -19259,7 +19458,7 @@
 				)
 			)
 		)
-		(property "Value" "LM2596S-5"
+		(property "Value" "LM2596SX-5.0/NOPB"
 			(at 248.92 148.59 0)
 			(effects
 				(font
@@ -19267,7 +19466,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
+		(property "Footprint" "LM2596SX-5.0_NOPB:VREG_LM2596SX-5.0_NOPB"
 			(at 250.19 162.56 0)
 			(effects
 				(font
@@ -19278,7 +19477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2596.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579708452087578624"
 			(at 248.92 156.21 0)
 			(effects
 				(font
@@ -19525,35 +19724,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 340.36 226.06 0)
+		(lib_id "Device:R_US")
+		(at 331.47 219.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b9a6eb16-78da-4e8f-933d-31ee4447aa80")
-		(property "Reference" "R7"
-			(at 342.9 224.7899 0)
+		(uuid "c3ed7ef5-bff9-4e5b-8e53-acc3bdf52141")
+		(property "Reference" "R16"
+			(at 331.47 213.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 342.9 227.3299 0)
+		(property "Value" "100R"
+			(at 331.47 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 338.582 226.06 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 331.724 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19562,7 +19759,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 340.36 226.06 0)
+			(at 331.47 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19570,42 +19767,42 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 340.36 226.06 0)
+		(property "Description" "Resistor, US symbol"
+			(at 331.47 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "79a4612c-7a6a-486f-9ce6-98486d95c0a2")
 		)
 		(pin "1"
-			(uuid "37db8aaa-e9c9-40e7-bc50-71258a14a4a6")
+			(uuid "3a97b8f3-e54c-465d-a661-6f6085f92f54")
+		)
+		(pin "2"
+			(uuid "169f143f-0600-46f4-92a7-f73f651a89ad")
 		)
 		(instances
-			(project ""
+			(project "EEE3088F Power Board"
 				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
-					(reference "R7")
+					(reference "R16")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 228.6 262.89 0)
+		(lib_id "Device:R_US")
+		(at 340.36 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b9bbf386-cda7-4b42-843c-e0a366ec5a86")
-		(property "Reference" "R8"
-			(at 231.14 261.6199 0)
+		(uuid "c4e4d6a3-f0d1-424f-bcb6-a81d780a7a73")
+		(property "Reference" "R20"
+			(at 342.9 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19613,8 +19810,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6k8"
-			(at 231.14 264.1599 0)
+		(property "Value" "0.1R"
+			(at 342.9 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19622,8 +19819,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 226.822 262.89 90)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 341.376 138.684 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19632,7 +19829,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 262.89 0)
+			(at 340.36 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19640,8 +19837,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 228.6 262.89 0)
+		(property "Description" "Resistor, US symbol"
+			(at 340.36 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19650,15 +19847,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a664a394-e702-4624-86bb-a2e6d27edf08")
+			(uuid "498f671e-9b9d-4812-8ecf-9a0edcfd45d7")
 		)
 		(pin "2"
-			(uuid "fb57025b-6fae-4a08-a40a-7bc7f7da74ca")
+			(uuid "d720998d-9e4d-4384-905f-d907ae05fdd0")
 		)
 		(instances
-			(project ""
+			(project "EEE3088F Power Board"
 				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
-					(reference "R8")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -19758,7 +19955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 235.9152 246.38 0)
 			(effects
 				(font
@@ -20083,7 +20280,7 @@
 				)
 			)
 		)
-		(property "Value" "68uH"
+		(property "Value" "22uH"
 			(at 275.59 156.21 90)
 			(effects
 				(font
@@ -20410,146 +20607,6 @@
 			(project ""
 				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 234.95 233.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2d3f675-7ce3-4990-a722-939de48ac87d")
-		(property "Reference" "R10"
-			(at 237.49 232.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 237.49 234.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.172 233.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 234.95 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "587e2e91-01b1-4772-a9f8-25af98880afd")
-		)
-		(pin "1"
-			(uuid "fe2265be-28b1-4529-b9d7-f274a804959d")
-		)
-		(instances
-			(project ""
-				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 340.36 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3bbe68f-5670-4ef4-9156-db9c354ffcee")
-		(property "Reference" "R3"
-			(at 342.9 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.4R"
-			(at 342.9 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 338.582 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 340.36 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 340.36 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e4ce9638-ddda-43de-be3a-6271be1dbe4b")
-		)
-		(pin "1"
-			(uuid "230f12eb-32b3-4b31-a607-8982c09787d2")
-		)
-		(instances
-			(project ""
-				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -21088,6 +21145,76 @@
 			(project "EEE3088F Power Board"
 				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 318.77 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa41bf1e-9250-437a-b31a-9b7a4e4c3ca7")
+		(property "Reference" "R12"
+			(at 321.31 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 321.31 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 319.786 170.434 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 318.77 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 318.77 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b469db6-1364-410a-b4d8-672cc6b39981")
+		)
+		(pin "2"
+			(uuid "c00519c3-d3d0-4ba8-973b-9d60084d2ca5")
+		)
+		(instances
+			(project "EEE3088F Power Board"
+				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
+					(reference "R12")
 					(unit 1)
 				)
 			)

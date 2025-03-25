@@ -7088,7 +7088,7 @@
 	)
 	(text "Do capacitor and inductor values \nneed to be exact? Save budget\nIf so, is it worth changing my whole design \nto find a different buck convertor that \ndoesn't use extended caps"
 		(exclude_from_sim no)
-		(at 214.884 189.992 0)
+		(at 252.476 180.848 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7812,12 +7812,6 @@
 		(uuid "7128641e-c5ef-41a9-abc2-dad21405cfdf")
 	)
 	(junction
-		(at 231.14 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74841404-849b-4f62-a8e0-5730dcd8c645")
-	)
-	(junction
 		(at 229.87 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7984,12 +7978,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d649f845-baf4-479a-a649-b96d0dd42ebd")
-	)
-	(junction
-		(at 269.24 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dae5eb10-3ec5-49db-81be-0b4ccc8680d5")
 	)
 	(junction
 		(at 386.08 189.23)
@@ -8178,16 +8166,6 @@
 			(type default)
 		)
 		(uuid "02b6e979-ee03-405e-9a74-b25c995324d5")
-	)
-	(wire
-		(pts
-			(xy 231.14 187.96) (xy 231.14 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02d14a59-62bd-4170-ad6a-47093477b0df")
 	)
 	(wire
 		(pts
@@ -8601,16 +8579,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 52.07) (xy 269.24 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d980827-8e17-4c30-bdca-b7cb694d52dc")
-	)
-	(wire
-		(pts
 			(xy 386.08 189.23) (xy 386.08 199.39)
 		)
 		(stroke
@@ -8888,16 +8856,6 @@
 			(type default)
 		)
 		(uuid "34defeca-bc6d-434d-9297-ee0f18aa05f3")
-	)
-	(wire
-		(pts
-			(xy 259.08 57.15) (xy 269.24 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35739edf-e294-49fe-b0e4-fe0100be4577")
 	)
 	(wire
 		(pts
@@ -9641,16 +9599,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 173.99) (xy 231.14 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a4be739-f2fe-40aa-92c4-c19c5d434b05")
-	)
-	(wire
-		(pts
 			(xy 154.94 179.07) (xy 171.45 179.07)
 		)
 		(stroke
@@ -9838,16 +9786,6 @@
 			(type default)
 		)
 		(uuid "873d0163-9fd2-4347-bbf4-3d345d73a1c2")
-	)
-	(wire
-		(pts
-			(xy 231.14 189.23) (xy 231.14 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87652c13-f7bf-424b-9124-b0b50420ac1a")
 	)
 	(wire
 		(pts
@@ -10931,7 +10869,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 57.15) (xy 279.4 57.15)
+			(xy 259.08 57.15) (xy 279.4 57.15)
 		)
 		(stroke
 			(width 0)
@@ -11271,16 +11209,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 187.96) (xy 241.3 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efb63cb2-8cd0-400c-806e-a1d100499a07")
-	)
-	(wire
-		(pts
 			(xy 273.05 143.51) (xy 279.4 143.51)
 		)
 		(stroke
@@ -11549,7 +11477,7 @@
 		)
 		(uuid "130d259f-b126-4820-bd87-a3033193f919")
 	)
-	(label "Motor2_B_OUT"
+	(label "MOTOR2_B_OUT"
 		(at 154.94 148.59 0)
 		(effects
 			(font
@@ -11609,17 +11537,7 @@
 		)
 		(uuid "1959203d-cb17-4825-ab2c-e40f885c58d2")
 	)
-	(label "3V3 Out"
-		(at 269.24 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1aef3dfa-35bf-4883-a224-025af3bf3083")
-	)
-	(label "Motor1_A_OUT"
+	(label "MOTOR1_A_OUT"
 		(at 482.6 92.71 0)
 		(effects
 			(font
@@ -11769,7 +11687,7 @@
 		)
 		(uuid "4b92edfe-edad-449a-9c4b-30cef341fe8b")
 	)
-	(label "MOTOR3_B OUT"
+	(label "MOTOR3_A_OUT"
 		(at 156.21 181.61 0)
 		(effects
 			(font
@@ -11789,7 +11707,7 @@
 		)
 		(uuid "4f083f0e-b787-40d1-adea-12af44c41b52")
 	)
-	(label "Motor4_B_OUT"
+	(label "MOTOR4_B_OUT"
 		(at 553.72 59.69 0)
 		(effects
 			(font
@@ -11899,7 +11817,7 @@
 		)
 		(uuid "6ed162ff-0faf-4a4e-9c06-5154b2b789e3")
 	)
-	(label "Motor2_B_OUT"
+	(label "MOTOR2_B_OUT"
 		(at 481.33 60.96 0)
 		(effects
 			(font
@@ -11979,7 +11897,7 @@
 		)
 		(uuid "7babea8f-909c-4501-81e1-3d8b7474e243")
 	)
-	(label "Motor3_B_OUT"
+	(label "MOTOR3_B_OUT"
 		(at 554.99 105.41 0)
 		(effects
 			(font
@@ -12059,7 +11977,7 @@
 		)
 		(uuid "a1bbea7e-72cb-4ba2-84a6-7595ab12ff26")
 	)
-	(label "Motor1_B_OUT"
+	(label "MOTOR1_B_OUT"
 		(at 482.6 107.95 0)
 		(effects
 			(font
@@ -12099,7 +12017,7 @@
 		)
 		(uuid "b5f59295-e638-4eb7-8da2-8c4ee4c5fa2a")
 	)
-	(label "Motor2_A_OUT"
+	(label "MOTOR2_A_OUT"
 		(at 490.22 45.72 0)
 		(effects
 			(font
@@ -12159,7 +12077,7 @@
 		)
 		(uuid "ca401764-1421-48c1-a875-f797683594d1")
 	)
-	(label "Motor2_A_OUT"
+	(label "MOTOR2_A_OUT"
 		(at 186.69 148.59 0)
 		(effects
 			(font
@@ -12249,7 +12167,7 @@
 		)
 		(uuid "ee2cc9b2-3cd5-4704-bf56-65812d4646fe")
 	)
-	(label "Motor3_A_OUT"
+	(label "MOTOR3_A_OUT"
 		(at 554.99 90.17 0)
 		(effects
 			(font
@@ -12269,7 +12187,7 @@
 		)
 		(uuid "f0050d1f-38e0-429c-8503-403fdf6c003b")
 	)
-	(label "Motor4_A_OUT"
+	(label "MOTOR4_A_OUT"
 		(at 562.61 44.45 0)
 		(effects
 			(font
@@ -12329,7 +12247,7 @@
 		)
 		(uuid "fe2d3c0e-e0f6-4761-bc88-57672498e1b0")
 	)
-	(label "Motor4_A_OUT"
+	(label "MOTOR4_A_OUT"
 		(at 154.94 151.13 0)
 		(effects
 			(font
@@ -12956,7 +12874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProLib_pcs_2025-03-25:SW-TH_SS-12D11G5"
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN"
 			(at 69.85 327.66 0)
 			(effects
 				(font
@@ -15444,7 +15362,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AP22966DC8-7:IC_AP22966DC8-7"
+		(property "Footprint" "Imported_Files:IC_AP22966DC8-7"
 			(at 71.12 238.76 0)
 			(effects
 				(font
@@ -17141,72 +17059,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 231.14 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5bbbdd67-5aee-4984-b5f8-470bdd31b3c5")
-		(property "Reference" "#PWR04"
-			(at 231.14 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 231.14 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c5e6a0c-b7ae-45cf-85c4-cf2dde08dee7")
-		)
-		(instances
-			(project ""
-				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 95.25 50.8 90)
 		(unit 1)
@@ -18688,7 +18540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 96.52 233.68 0)
 			(effects
 				(font
@@ -20219,7 +20071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 21.59 233.68 0)
 			(effects
 				(font

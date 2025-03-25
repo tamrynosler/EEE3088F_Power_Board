@@ -1,4 +1,4 @@
-24740949261194098
+24735605853039176
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55229,13 +55229,6 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
-DRV8837DSGR
-SON50P200X200X80-9N
-
-
-0
-11
-11
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -65855,13 +65848,6 @@ Yellow 5381 Series LED
 0
 2
 2
-LM2596SX-5.0_NOPB
-VREG_LM2596SX-5.0_NOPB
-
-
-0
-6
-6
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -92882,13 +92868,6 @@ Logo WEEE
 0
 0
 0
-TP4056-42-ESOP8
-SOIC127P600X175-9N
-
-
-0
-9
-9
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf

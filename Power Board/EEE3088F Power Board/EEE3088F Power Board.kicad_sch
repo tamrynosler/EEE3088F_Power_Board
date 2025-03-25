@@ -4724,6 +4724,335 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ProLib_pcs_2025-03-25:SS-12D11G5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ProLib_pcs_2025-03-25:SW-TH_SS-12D11G5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211009/84F89DEF741E27E9E55DE4039DC07CAD.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Circuit:SPDT Actuator Style:Rectangular columnar Pin Style:PCPin Switch Length:13.5mm Switch Width:6.6mm Switch Height:6.3mm Mounting Style:Right-Angle Actuator Color:Black Current Rating (DC):3A Voltage Rating (DC):125V Current Rating (AC):3A Voltage Rat"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "SS-12D11G5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "XKB Connectivity(中国星坤)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C692484"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "柄长5mm 弯插双档 滑动开关"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS-12D11G5_1_0"
+				(polyline
+					(pts
+						(xy -7.62 0) (xy -7.62 7.62) (xy -7.62 7.62) (xy 7.62 7.62) (xy 7.62 7.62) (xy 7.62 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -6.604 0)
+					(end -3.556 2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.286) (xy -5.334 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.286) (xy -4.826 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.286) (xy -5.08 5.08) (xy -5.08 5.08) (xy 1.778 5.08) (xy 1.778 5.08) (xy 1.778 2.286)
+						(xy 1.778 2.286) (xy 2.032 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 0)
+					(end 2.54 2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -2.032 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -1.524 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -1.778 6.35) (xy -1.778 6.35) (xy 5.08 6.35) (xy 5.08 6.35) (xy 5.08 2.286)
+						(xy 5.08 2.286) (xy 5.334 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 2.286) (xy 1.524 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.556 0)
+					(end 6.604 2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.286) (xy 4.826 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 -5.08 90)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -5.08 90)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 90)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 -5.08 90)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -5.08 90)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5253,182 +5582,6 @@
 						)
 					)
 					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_SPDT_312"
-			(pin_names
-				(offset 1)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPDT_312"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "changeover single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPDT_312_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPDT_312_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6347,6 +6500,18 @@
 		)
 		(uuid "0615d5dd-aaa6-4b62-9f60-e3f3aa01bda3")
 	)
+	(text "Acceptance Testing\n- solder PWR\n- Check output V\n- LED on\n- Load output\n\nFix:\n- Manual 3v3 line\n- V div\n"
+		(exclude_from_sim no)
+		(at 302.514 71.374 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 5 17 1)
+			)
+			(justify left)
+		)
+		(uuid "06d5daa0-a456-472e-a47c-de7e61ec4722")
+	)
 	(text "test points? R?"
 		(exclude_from_sim no)
 		(at 557.022 40.64 0)
@@ -6438,6 +6603,18 @@
 			)
 		)
 		(uuid "2d13642c-208a-49e7-91f8-f4f18ad26af1")
+	)
+	(text "Acceptance Testing\n- Check shunt res\n- Vcc solder\n- Check not overheating\n- Solder i2c\n- connect stm\n\nFix:\n-solder across shunt / replc\n"
+		(exclude_from_sim no)
+		(at 103.886 179.832 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 5 17 1)
+			)
+			(justify left)
+		)
+		(uuid "3444189e-38bf-4b25-aa75-4403aeabe2f2")
 	)
 	(text "Soft Start Caps (up to 25V)\n"
 		(exclude_from_sim no)
@@ -6617,6 +6794,18 @@
 		)
 		(uuid "6be3ef56-82f9-40f7-b4ae-751d3e39f91d")
 	)
+	(text "Acceptance testing:\n- Solder Vbias\n- Scheck\n- Solder VIN1\n- CHECK\n- TOGGLE INPUT\n- CHECK\n- repeat EN2\n\nFixing:\n- Take the L"
+		(exclude_from_sim no)
+		(at 83.566 269.748 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 10 29 1)
+			)
+			(justify left)
+		)
+		(uuid "6ef04520-0c31-49b5-bf4e-eae934c6e5b2")
+	)
 	(text "must still determine which inductor. REQ:\nValue = 1u\nLow Sat current\nDCR"
 		(exclude_from_sim no)
 		(at 130.81 28.448 0)
@@ -6683,7 +6872,7 @@
 	)
 	(text "Vout to Cap < 4cm"
 		(exclude_from_sim no)
-		(at 228.6 84.074 0)
+		(at 221.996 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6836,9 +7025,9 @@
 		)
 		(uuid "af70d4dc-6cd4-49e5-aff0-0fff9809949b")
 	)
-	(text "- Double check the Cap values\n- What is EXP? Base plate contact maybe\n- Check this is 100% the right symbol. The other pins are correct, just concerend abt 15\n- I think this is the packafe with exposed PAD for thermal - base\n- Add LED indicator?"
+	(text "- Double check the Ciss Cap values\n- Correct symbol\n- EXT is for base thermal\n- Add LED indicator."
 		(exclude_from_sim no)
-		(at 20.32 271.272 0)
+		(at 14.732 271.018 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6870,6 +7059,18 @@
 			)
 		)
 		(uuid "b444adb2-4ea7-4f08-9a2f-5d69c4c64918")
+	)
+	(text "Acceptance testing:\n- With out battery\n- Check for SC test with multimeter\n\nFixing:\n- Pull of and solder man"
+		(exclude_from_sim no)
+		(at 24.13 309.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 10 29 1)
+			)
+			(justify left)
+		)
+		(uuid "b8f9a3fa-2e79-488f-811d-e99353fc76d5")
 	)
 	(text "LDO 5V->3V3\n"
 		(exclude_from_sim no)
@@ -6944,18 +7145,6 @@
 		)
 		(uuid "c3b665b4-22e1-43cf-aa7b-8023fdd0f992")
 	)
-	(text "Acceptance Testing\n- LED will show good power\n- Test point to measure voltage\n- Add connection for external load to drive (think Res bank)"
-		(exclude_from_sim no)
-		(at 97.028 117.348 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 2 0 1)
-			)
-			(justify left)
-		)
-		(uuid "da325347-684f-4a33-8935-f43702efb6fb")
-	)
 	(text "Cap V rating > 1.5xVout"
 		(exclude_from_sim no)
 		(at 276.606 172.212 0)
@@ -6965,6 +7154,18 @@
 			)
 		)
 		(uuid "db4ba331-79d5-4cd9-b09b-734d96917ef5")
+	)
+	(text "Acceptance testing:\n- Check correct orientation\n- Plug in and check V w/ TP\n\nFixing:\n- Reverse the wires on the batt conn"
+		(exclude_from_sim no)
+		(at 96.774 344.678 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 10 29 1)
+			)
+			(justify left)
+		)
+		(uuid "dedcbd00-0c79-42cd-8a91-ecd0b5365473")
 	)
 	(text "To Do list in a suggestive order:\n1) Clarity on our design assumptions\n2) Check all design logic (esp Volt reg values), check eachothers\n	Add testing procedure comments and test points.\n3) Assign footprints (check with eachother as we go.\n	This is the biggest killer of PCBs.\n	This includes passives and ensuring basic passives available on JLC\n	Have chats with others abt plugin and finding footprints\n4) Check all labels and connectiosn and run electrical rules checker\n5) Move on to PCB design and BOM"
 		(exclude_from_sim no)
@@ -6977,6 +7178,18 @@
 			(justify left)
 		)
 		(uuid "e01ebc97-944b-4a16-9731-8aa58c170bf9")
+	)
+	(text "Acceptance Testing\n- solder Boost_mode\n- solder Boostpwr\n- Check output tp\n- Check FB V\n- Load output\n\nFix:\n- Change L\n- Change R\n"
+		(exclude_from_sim no)
+		(at 130.048 96.266 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 5 17 1)
+			)
+			(justify left)
+		)
+		(uuid "eeac545f-322f-42d5-84b5-7dfbe52147bc")
 	)
 	(text "0/3.3V"
 		(exclude_from_sim no)
@@ -7147,18 +7360,6 @@
 		(uuid "4274cb10-bfe2-4ba9-aa5b-30a201279a2f")
 	)
 	(junction
-		(at 21.59 231.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4313d4f1-6d5f-4e0a-b587-acb31a292678")
-	)
-	(junction
-		(at 34.29 231.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46264184-ac13-4ae2-9e82-078a92fd071e")
-	)
-	(junction
 		(at 228.6 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7255,12 +7456,6 @@
 		(uuid "8ae4bf69-4ca2-4fe3-8a16-8223d9381f79")
 	)
 	(junction
-		(at 16.51 241.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f251557-a088-4308-a603-15e54e575ff2")
-	)
-	(junction
 		(at 307.34 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7333,6 +7528,12 @@
 		(uuid "bfb814a4-ce47-4811-9182-976c1b85e0c6")
 	)
 	(junction
+		(at 16.51 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c28f12e0-6f8c-4b0d-8b46-a04b0af51800")
+	)
+	(junction
 		(at 280.67 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7351,12 +7552,6 @@
 		(uuid "c6ccc2ea-c858-48f9-aa16-a5d4a3a42c18")
 	)
 	(junction
-		(at 38.1 304.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c6f1febe-b193-4ae5-ab45-be6e450fe5d7")
-	)
-	(junction
 		(at 43.18 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7367,6 +7562,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2c3e100-5787-4f11-8bb5-9e6c822d59c5")
+	)
+	(junction
+		(at 21.59 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d649f845-baf4-479a-a649-b96d0dd42ebd")
 	)
 	(junction
 		(at 269.24 57.15)
@@ -7720,16 +7921,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 304.8) (xy 38.1 304.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11453e6f-14b9-4c3b-9062-8d497953bb59")
-	)
-	(wire
-		(pts
 			(xy 184.15 222.25) (xy 184.15 223.52)
 		)
 		(stroke
@@ -7757,6 +7948,16 @@
 			(type default)
 		)
 		(uuid "11d7ef1c-4755-43d2-b95b-cb96bbd9a793")
+	)
+	(wire
+		(pts
+			(xy 21.59 217.17) (xy 21.59 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1214588f-672a-45c3-b02d-b55069270292")
 	)
 	(wire
 		(pts
@@ -8410,16 +8611,6 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 241.3) (xy 16.51 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4506b229-4b32-4207-8fcd-0aa865cde523")
-	)
-	(wire
-		(pts
 			(xy 180.34 227.33) (xy 184.15 227.33)
 		)
 		(stroke
@@ -8580,23 +8771,13 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 231.14) (xy 34.29 231.14)
+			(xy 21.59 231.14) (xy 50.8 231.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "54072db0-b261-47f3-8765-f022f7ea100f")
-	)
-	(wire
-		(pts
-			(xy 34.29 231.14) (xy 50.8 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "543c8434-3df0-40d0-bab4-bd1b4fa03e16")
 	)
 	(wire
 		(pts
@@ -8627,6 +8808,16 @@
 			(type default)
 		)
 		(uuid "56c088cf-44a4-4b44-a17e-0aa40291873a")
+	)
+	(wire
+		(pts
+			(xy 21.59 228.6) (xy 21.59 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58fe83c9-3066-41b6-b30c-4df54315055a")
 	)
 	(wire
 		(pts
@@ -8728,16 +8919,6 @@
 		)
 		(uuid "60898a02-0f3c-4a96-90bc-051d4a4de484")
 	)
-	(wire
-		(pts
-			(xy 38.1 304.8) (xy 39.37 304.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "609a3ef7-fcac-4aa0-8dc1-36dabf1eeb64")
-	)
 	(polyline
 		(pts
 			(xy 406.4 250.825) (xy 299.72 250.825)
@@ -8760,7 +8941,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 226.06) (xy 93.98 223.52)
+			(xy 93.98 220.98) (xy 93.98 226.06)
 		)
 		(stroke
 			(width 0)
@@ -8867,16 +9048,6 @@
 			(type default)
 		)
 		(uuid "6b534ffc-4cf9-45f9-b3c5-6407ca8f3e79")
-	)
-	(wire
-		(pts
-			(xy 21.59 224.79) (xy 21.59 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bc36b9d-cb8b-4e64-ba8c-c5b604dac71b")
 	)
 	(wire
 		(pts
@@ -9250,16 +9421,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 307.34) (xy 55.88 307.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88338189-71c8-4cf3-9755-ac3ee8a75696")
-	)
-	(wire
-		(pts
 			(xy 105.41 62.23) (xy 106.68 62.23)
 		)
 		(stroke
@@ -9500,13 +9661,13 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 223.52) (xy 34.29 231.14)
+			(xy 16.51 224.79) (xy 16.51 233.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d77fc83-8b04-4ea6-9f4f-c5bc7741b5da")
+		(uuid "9e099c7b-33cb-462a-9de4-4cf39e4ea6a6")
 	)
 	(wire
 		(pts
@@ -10390,6 +10551,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 332.74) (xy 64.77 340.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e198cb18-3b7d-4133-9c67-e8f054a55f00")
+	)
+	(wire
+		(pts
 			(xy 85.09 62.23) (xy 82.55 62.23)
 		)
 		(stroke
@@ -11079,12 +11250,12 @@
 		(uuid "542ad44b-1ad7-4726-b205-9438ee699caf")
 	)
 	(label "Switch-"
-		(at 55.88 307.34 0)
+		(at 69.85 332.74 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "54ac46bb-f899-4464-8fac-670a5a607da5")
 	)
@@ -11137,16 +11308,6 @@
 			(justify left bottom)
 		)
 		(uuid "6d605f9f-adf0-4ee3-8c4c-6528bb8b8bd2")
-	)
-	(label "Battery"
-		(at 21.59 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6e1645b5-ee45-4afc-901e-c660ae722b52")
 	)
 	(label "Battery"
 		(at 472.44 38.1 180)
@@ -11249,7 +11410,7 @@
 		(uuid "7e36d07d-9bc9-4b70-bc15-59a6836c8093")
 	)
 	(label "Battery"
-		(at 29.21 304.8 0)
+		(at 64.77 340.36 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11397,6 +11558,16 @@
 			(justify left bottom)
 		)
 		(uuid "c13c3444-1c56-4aa7-ae80-b27da2aab168")
+	)
+	(label "Switch-"
+		(at 21.59 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c90e9dea-d75f-480c-b1c2-8510719a64c5")
 	)
 	(label "V_bus"
 		(at 210.82 220.98 0)
@@ -12180,6 +12351,130 @@
 			(project "EEE3088F Power Board"
 				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProLib_pcs_2025-03-25:SS-12D11G5")
+		(at 69.85 327.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d142c19-a2ec-4b7a-bb59-5f3d32906c0d")
+		(property "Reference" "SW2"
+			(at 78.74 323.2149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 78.74 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ProLib_pcs_2025-03-25:SW-TH_SS-12D11G5"
+			(at 69.85 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211009/84F89DEF741E27E9E55DE4039DC07CAD.pdf"
+			(at 69.85 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Circuit:SPDT Actuator Style:Rectangular columnar Pin Style:PCPin Switch Length:13.5mm Switch Width:6.6mm Switch Height:6.3mm Mounting Style:Right-Angle Actuator Color:Black Current Rating (DC):3A Voltage Rating (DC):125V Current Rating (AC):3A Voltage Rat"
+			(at 69.85 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SS-12D11G5"
+			(at 69.85 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XKB Connectivity(中国星坤)"
+			(at 69.85 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C692484"
+			(at 69.85 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 69.85 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "柄长5mm 弯插双档 滑动开关"
+			(at 69.85 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "1b9f8113-4783-4872-9e8d-0dec56912b7c")
+		)
+		(pin "3"
+			(uuid "a2b86e5e-2792-498f-a3c0-c451dbee535b")
+		)
+		(pin "4"
+			(uuid "29949293-8319-40dc-813a-d36c1bc49d98")
+		)
+		(pin "2"
+			(uuid "eca66b60-c28f-4924-8607-657a54fd2178")
+		)
+		(pin "1"
+			(uuid "2e89ccb8-69b8-44b7-a002-67225b0a9670")
+		)
+		(instances
+			(project ""
+				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -13153,7 +13448,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 94.742 126.238 0)
+			(at 90.678 130.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15358,7 +15653,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 93.98 223.52 0)
+		(at 93.98 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15367,7 +15662,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fb6f56e-0cdf-4f19-9573-6223fe2e646e")
 		(property "Reference" "#PWR030"
-			(at 93.98 227.33 0)
+			(at 93.98 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15376,7 +15671,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 93.98 218.44 0)
+			(at 93.98 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15384,7 +15679,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 223.52 0)
+			(at 93.98 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15393,7 +15688,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 223.52 0)
+			(at 93.98 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15402,7 +15697,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 93.98 223.52 0)
+			(at 93.98 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16357,7 +16652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 16.51 243.84 0)
 			(effects
 				(font
@@ -16633,7 +16928,7 @@
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 36.83 165.1 90)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -16693,73 +16988,6 @@
 			(project "EEE3088F Power Board"
 				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
 					(reference "JPI3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 34.29 223.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "76996de0-4216-4ad9-966f-bee3e82dc511")
-		(property "Reference" "TP20"
-			(at 36.83 218.9479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 36.83 221.4879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 39.37 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 34.29 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4dc2a6f4-7285-4707-8359-4148b921c3f7")
-		)
-		(instances
-			(project "EEE3088F Power Board"
-				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
-					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -16971,7 +17199,7 @@
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 50.8 50.8 180)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -17598,7 +17826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 96.52 233.68 0)
 			(effects
 				(font
@@ -18249,9 +18477,78 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 16.51 237.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "93ea4cc7-d8f3-4714-bb03-a4edbf515257")
+		(property "Reference" "JPI5"
+			(at 14.732 232.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "VIN2"
+			(at 14.224 230.886 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 16.51 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 16.51 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce2f12e8-eacd-4e85-bb2e-f8035bcee979")
+		)
+		(pin "2"
+			(uuid "649a9c6e-1b8f-40bd-ab02-14d1a8685628")
+		)
+		(instances
+			(project "EEE3088F Power Board"
+				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
+					(reference "JPI5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 66.04 55.88 90)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -18773,7 +19070,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 21.59 224.79 0)
+		(at 21.59 217.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18782,7 +19079,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4519d70-6545-4f73-ab8d-e35c24885de4")
 		(property "Reference" "#PWR023"
-			(at 21.59 228.6 0)
+			(at 21.59 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18791,7 +19088,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 21.59 219.71 0)
+			(at 21.59 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18799,7 +19096,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 224.79 0)
+			(at 21.59 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18808,7 +19105,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 224.79 0)
+			(at 21.59 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18817,7 +19114,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 21.59 224.79 0)
+			(at 21.59 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18930,7 +19227,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 21.59 233.68 0)
 			(effects
 				(font
@@ -18992,9 +19289,78 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 214.63 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8c11ce4-9d70-4d40-b0fd-e7d27f84d334")
+		(property "Reference" "JP_P3"
+			(at 212.598 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LDO_PWR"
+			(at 208.026 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 214.63 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 214.63 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "851129c3-91bd-46b3-aba4-a57444600607")
+		)
+		(pin "2"
+			(uuid "be8ad381-c879-459a-b4c3-6361f6d6b08f")
+		)
+		(instances
+			(project "EEE3088F Power Board"
+				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
+					(reference "JP_P3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 66.04 138.43 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -19987,7 +20353,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 309.88 0)
+		(at 74.93 332.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19996,7 +20362,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5a04e53-a7cb-46c0-9389-1d2309464bbe")
 		(property "Reference" "#PWR031"
-			(at 38.1 316.23 0)
+			(at 74.93 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20005,7 +20371,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 314.96 0)
+			(at 74.93 337.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20013,7 +20379,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 309.88 0)
+			(at 74.93 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20022,7 +20388,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 309.88 0)
+			(at 74.93 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20031,7 +20397,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 309.88 0)
+			(at 74.93 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20464,6 +20830,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 21.59 224.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc3a1ba7-cb2b-4fc1-94e6-e50938972665")
+		(property "Reference" "JPI4"
+			(at 25.908 224.536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "VIN1"
+			(at 25.4 221.742 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 21.59 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 21.59 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e19006c8-36cf-401a-8390-d4cc4c931aad")
+		)
+		(pin "2"
+			(uuid "d3f8a0ed-28a6-4568-8705-f052cc44806f")
+		)
+		(instances
+			(project "EEE3088F Power Board"
+				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
+					(reference "JPI4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 99.06 233.68 90)
 		(unit 1)
@@ -20677,77 +21112,6 @@
 			(project ""
 				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPDT_312")
-		(at 43.18 307.34 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2874021-f044-472e-90e1-623c84c7d768")
-		(property "Reference" "SW1"
-			(at 43.18 298.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPDT_312"
-			(at 43.18 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 299.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 43.18 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1af893c-6d8c-4d66-807e-29308f947ad9")
-		)
-		(pin "3"
-			(uuid "d30d74bf-cf3e-4477-86b9-e5417389a20a")
-		)
-		(pin "2"
-			(uuid "a619c2c6-55f9-4c0b-a338-eced0fe27df5")
-		)
-		(instances
-			(project ""
-				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -21020,9 +21384,78 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 93.98 217.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec9b4120-1399-4ffd-9850-b207f2fcac5a")
+		(property "Reference" "JPI6"
+			(at 98.298 216.916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "VBIAS"
+			(at 97.79 214.122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 93.98 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 93.98 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab6874b1-88a2-4030-9fba-68d2b0567bc3")
+		)
+		(pin "2"
+			(uuid "2154d11d-da15-4949-a193-fe32fa96672b")
+		)
+		(instances
+			(project "EEE3088F Power Board"
+				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
+					(reference "JPI6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 95.25 135.89 270)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -21226,16 +21659,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 218.44 57.15 90)
+		(at 210.82 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f9f85200-0446-4da9-9b21-ae01a3a1fb93")
 		(property "Reference" "#PWR042"
-			(at 222.25 57.15 0)
+			(at 214.63 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21244,7 +21676,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 214.63 57.1499 90)
+			(at 207.01 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21253,7 +21685,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 57.15 0)
+			(at 210.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21262,7 +21694,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 57.15 0)
+			(at 210.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21271,7 +21703,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 218.44 57.15 0)
+			(at 210.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)

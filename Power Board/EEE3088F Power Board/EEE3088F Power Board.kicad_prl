@@ -28,12 +28,8 @@
       "vias": true,
       "zones": true
     },
-    "visible_items": [
-      "ratsnest",
-      "grid",
-      "shapes"
-    ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_items": [],
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -44,7 +40,7 @@
   },
   "meta": {
     "filename": "EEE3088F Power Board.kicad_prl",
-    "version": 5
+    "version": 3
   },
   "net_inspector_panel": {
     "col_hidden": [

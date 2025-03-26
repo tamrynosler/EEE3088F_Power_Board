@@ -7190,6 +7190,28 @@
 		)
 		(uuid "b4a5548e-6907-49dd-b25f-107a23dcb1fe")
 	)
+	(text "Git latest push"
+		(exclude_from_sim no)
+		(at 413.258 348.234 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b69d3fe6-7a07-4f2e-8174-cc7f6e484f11")
+	)
+	(text "To Do:\n\n- Organise subsystems\n- timestamps on schematic when pushing\n- fight the rat's nest\n- find correct shape of board\n- add mounting holes\n- build into correct size\n- add traces (mindful of current)\n- add vias and GND plane"
+		(exclude_from_sim no)
+		(at 335.534 349.758 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd0fd324-8f55-42d2-9102-727e0b15106e")
+	)
 	(text "9V"
 		(exclude_from_sim no)
 		(at 334.264 206.502 0)
@@ -7275,6 +7297,17 @@
 			)
 		)
 		(uuid "c8f1b644-3d73-490c-ad86-e6fc02165c78")
+	)
+	(text "Tam\nWed night: 23:15pm"
+		(exclude_from_sim no)
+		(at 415.29 353.568 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ced9240e-a91e-4baf-a580-14f5cf6538b7")
 	)
 	(text "test points?"
 		(exclude_from_sim no)
@@ -8036,6 +8069,16 @@
 		)
 		(uuid "0bc7a842-1263-426c-b4be-405df73360ff")
 	)
+	(polyline
+		(pts
+			(xy 412.75 349.25) (xy 476.25 349.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ca3bf32-f240-4e1e-88d4-5a69f09b61ca")
+	)
 	(wire
 		(pts
 			(xy 529.59 281.94) (xy 529.59 295.91)
@@ -8625,6 +8668,16 @@
 			(type default)
 		)
 		(uuid "30cf6f52-b5f6-407f-b1be-7465de27c7e4")
+	)
+	(polyline
+		(pts
+			(xy 412.75 370.205) (xy 476.25 370.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ae79e2-6501-49c5-9900-8829883b6d32")
 	)
 	(wire
 		(pts
@@ -10016,6 +10069,16 @@
 		)
 		(uuid "89a47c5d-ab82-49fd-9c44-569a7d9558ef")
 	)
+	(polyline
+		(pts
+			(xy 412.75 349.25) (xy 412.75 370.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89e97861-fb02-4144-9a6e-958bf1adeb1e")
+	)
 	(wire
 		(pts
 			(xy 454.66 57.15) (xy 458.47 57.15)
@@ -10295,6 +10358,16 @@
 			(type default)
 		)
 		(uuid "a06b8805-78c1-4779-9bb8-17fd833dc505")
+	)
+	(polyline
+		(pts
+			(xy 476.25 370.205) (xy 476.25 349.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a19ba069-f6ee-425a-bb5e-97b12698d3bd")
 	)
 	(wire
 		(pts

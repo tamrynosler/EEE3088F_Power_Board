@@ -1,0 +1,129 @@
+(footprint "SMA-DIODE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<B>Diode</B><p>Basic SMA packaged diode. Good for reverse polarization protection. Common part #: MBRA140")
+	(property "Reference" "REF**"
+		(at -1.272225 -1.857457 0)
+		(layer "F.SilkS")
+		(uuid "accf314e-1a57-4803-9ec2-af0d354cfdc7")
+		(effects
+			(font
+				(size 0.320562 0.320562)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMA-DIODE"
+		(at 2.086715 -1.857682 0)
+		(layer "F.Fab")
+		(uuid "7907cfe5-845f-4816-9ab9-a1b76bb72b67")
+		(effects
+			(font
+				(size 0.320602 0.320602)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13d3d189-0664-43e7-a024-c76ca52f8b14")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c893ad2-610e-4c2f-9ca7-59fa2a0153bd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.3 -1.45)
+		(end 2.3 -1.45)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c191d796-09d4-4947-be4e-3c0aeaf86f1a")
+	)
+	(fp_line
+		(start -2.3 -1)
+		(end -2.3 -1.45)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "341ece52-5bc2-4d30-bfa5-1c8c1f5837df")
+	)
+	(fp_line
+		(start -2.3 1.45)
+		(end -2.3 1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2eab1877-7560-4743-bc1e-6e5310f26c7f")
+	)
+	(fp_line
+		(start 2.3 -1.45)
+		(end 2.3 -1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "965de4b4-7d5b-4495-b705-dadd60850415")
+	)
+	(fp_line
+		(start 2.3 1)
+		(end 2.3 1.45)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "149dd29d-38d9-4b29-a4ac-28836471119e")
+	)
+	(fp_line
+		(start 2.3 1.45)
+		(end -2.3 1.45)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47b8a6a2-d5b6-4538-9975-2cc517eafb5a")
+	)
+	(pad "A" smd rect
+		(at -2.15 0)
+		(size 1.27 1.47)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "d3707e45-d815-41a5-9a59-f459b0969b34")
+	)
+	(pad "C" smd rect
+		(at 2.15 0)
+		(size 1.27 1.47)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "df59ddfe-48bd-4206-9435-cae4d6421945")
+	)
+	(embedded_fonts no)
+)

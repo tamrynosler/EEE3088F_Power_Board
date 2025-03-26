@@ -5,402 +5,6 @@
 	(uuid "713ead88-0bd2-43ee-981f-e11872ed406d")
 	(paper "A2")
 	(lib_symbols
-		(symbol "AP22966DC8-7:AP22966DC8-7"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -15.24 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "AP22966DC8-7"
-				(at -15.24 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "AP22966DC8-7:IC_AP22966DC8-7"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Diodes Inc."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SNAPEDA_PACKAGE_ID" "31898"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "WFDFN-14 Diodes Inc."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/AP22966DC8-7/Diodes+Inc./view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "3-2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/AP22966DC8-7/Diodes+Inc./view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "AP22966DC8-7"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Power Switch/Driver 1:1 N-Channel 6A V-DFN3020-14"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Diodes Inc."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "0.83 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "AP22966DC8-7_0_0"
-				(rectangle
-					(start -15.24 -15.24)
-					(end 15.24 15.24)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -20.32 7.62 0)
-					(length 5.08)
-					(name "VIN1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 2.54 0)
-					(length 5.08)
-					(name "EN1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 -2.54 0)
-					(length 5.08)
-					(name "VIN2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6_7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 -7.62 0)
-					(length 5.08)
-					(name "EN2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 12.7 180)
-					(length 5.08)
-					(name "VBIAS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 20.32 7.62 180)
-					(length 5.08)
-					(name "VOUT1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "13_14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 5.08 180)
-					(length 5.08)
-					(name "SS1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 20.32 -2.54 180)
-					(length 5.08)
-					(name "VOUT2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8_9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -5.08 180)
-					(length 5.08)
-					(name "SS2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -10.16 180)
-					(length 5.08)
-					(name "EXP"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -12.7 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Battery_Management:TP4056-42-ESOP8"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3066,6 +2670,731 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Custom_symbols:AP22966DC8-7"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -15.24 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "AP22966DC8-7"
+				(at -15.24 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "AP22966DC8-7:IC_AP22966DC8-7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Diodes Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PACKAGE_ID" "31898"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "WFDFN-14 Diodes Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/AP22966DC8-7/Diodes+Inc./view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "3-2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/AP22966DC8-7/Diodes+Inc./view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "AP22966DC8-7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Power Switch/Driver 1:1 N-Channel 6A V-DFN3020-14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Diodes Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.83 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "AP22966DC8-7_0_0"
+				(rectangle
+					(start -15.24 -15.24)
+					(end 15.24 15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -20.32 7.62 0)
+					(length 5.08)
+					(name "VIN1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 2.54 0)
+					(length 5.08)
+					(name "EN1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -2.54 0)
+					(length 5.08)
+					(name "VIN2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6_7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -7.62 0)
+					(length 5.08)
+					(name "EN2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 12.7 180)
+					(length 5.08)
+					(name "VBIAS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 7.62 180)
+					(length 5.08)
+					(name "VOUT1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13_14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 5.08 180)
+					(length 5.08)
+					(name "SS1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "VOUT2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8_9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -5.08 180)
+					(length 5.08)
+					(name "SS2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -10.16 180)
+					(length 5.08)
+					(name "EXP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -12.7 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Custom_symbols:SS-12D11G5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ProLib_pcs_2025-03-25:SW-TH_SS-12D11G5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211009/84F89DEF741E27E9E55DE4039DC07CAD.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Circuit:SPDT Actuator Style:Rectangular columnar Pin Style:PCPin Switch Length:13.5mm Switch Width:6.6mm Switch Height:6.3mm Mounting Style:Right-Angle Actuator Color:Black Current Rating (DC):3A Voltage Rating (DC):125V Current Rating (AC):3A Voltage Rat"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "SS-12D11G5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "XKB Connectivity(中国星坤)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C692484"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "柄长5mm 弯插双档 滑动开关"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS-12D11G5_1_0"
+				(polyline
+					(pts
+						(xy -7.62 0) (xy -7.62 7.62) (xy -7.62 7.62) (xy 7.62 7.62) (xy 7.62 7.62) (xy 7.62 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -6.604 0)
+					(end -3.556 2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.286) (xy -5.334 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.286) (xy -4.826 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.286) (xy -5.08 5.08) (xy -5.08 5.08) (xy 1.778 5.08) (xy 1.778 5.08) (xy 1.778 2.286)
+						(xy 1.778 2.286) (xy 2.032 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 0)
+					(end 2.54 2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -2.032 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -1.524 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -1.778 6.35) (xy -1.778 6.35) (xy 5.08 6.35) (xy 5.08 6.35) (xy 5.08 2.286)
+						(xy 5.08 2.286) (xy 5.334 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 2.286) (xy 1.524 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.556 0)
+					(end 6.604 2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.286) (xy 4.826 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 -5.08 90)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -5.08 90)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 90)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 -5.08 90)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -5.08 90)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -5016,335 +5345,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ProLib_pcs_2025-03-25:SS-12D11G5"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "ProLib_pcs_2025-03-25:SW-TH_SS-12D11G5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211009/84F89DEF741E27E9E55DE4039DC07CAD.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Circuit:SPDT Actuator Style:Rectangular columnar Pin Style:PCPin Switch Length:13.5mm Switch Width:6.6mm Switch Height:6.3mm Mounting Style:Right-Angle Actuator Color:Black Current Rating (DC):3A Voltage Rating (DC):125V Current Rating (AC):3A Voltage Rat"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "SS-12D11G5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "XKB Connectivity(中国星坤)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part" "C692484"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part Name" "柄长5mm 弯插双档 滑动开关"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SS-12D11G5_1_0"
-				(polyline
-					(pts
-						(xy -7.62 0) (xy -7.62 7.62) (xy -7.62 7.62) (xy 7.62 7.62) (xy 7.62 7.62) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -6.604 0)
-					(end -3.556 2.286)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.286) (xy -5.334 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.286) (xy -4.826 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.286) (xy -5.08 5.08) (xy -5.08 5.08) (xy 1.778 5.08) (xy 1.778 5.08) (xy 1.778 2.286)
-						(xy 1.778 2.286) (xy 2.032 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 0)
-					(end 2.54 2.286)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -2.032 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -1.524 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -1.778 6.35) (xy -1.778 6.35) (xy 5.08 6.35) (xy 5.08 6.35) (xy 5.08 2.286)
-						(xy 5.08 2.286) (xy 5.334 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 2.286) (xy 1.524 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.556 0)
-					(end 6.604 2.286)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.286) (xy 4.826 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 -5.08 90)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -5.08 90)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -5.08 90)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 -5.08 90)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 -5.08 90)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7932,6 +7932,12 @@
 		(uuid "c28f12e0-6f8c-4b0d-8b46-a04b0af51800")
 	)
 	(junction
+		(at 91.44 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c339b24d-ed3d-47d6-8d79-d72a7e2c63a9")
+	)
+	(junction
 		(at 43.18 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10326,6 +10332,16 @@
 			(type default)
 		)
 		(uuid "ac8b73d4-7b6d-45dd-8513-79a98b3f94fc")
+	)
+	(wire
+		(pts
+			(xy 91.44 248.92) (xy 91.44 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acbf7334-d718-4a0c-9102-22c43c352404")
 	)
 	(polyline
 		(pts
@@ -12847,130 +12863,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ProLib_pcs_2025-03-25:SS-12D11G5")
-		(at 69.85 327.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d142c19-a2ec-4b7a-bb59-5f3d32906c0d")
-		(property "Reference" "SW2"
-			(at 78.74 323.2149 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 78.74 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN"
-			(at 69.85 327.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211009/84F89DEF741E27E9E55DE4039DC07CAD.pdf"
-			(at 69.85 327.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Circuit:SPDT Actuator Style:Rectangular columnar Pin Style:PCPin Switch Length:13.5mm Switch Width:6.6mm Switch Height:6.3mm Mounting Style:Right-Angle Actuator Color:Black Current Rating (DC):3A Voltage Rating (DC):125V Current Rating (AC):3A Voltage Rat"
-			(at 69.85 327.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "SS-12D11G5"
-			(at 69.85 327.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "XKB Connectivity(中国星坤)"
-			(at 69.85 327.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C692484"
-			(at 69.85 327.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 69.85 327.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "柄长5mm 弯插双档 滑动开关"
-			(at 69.85 327.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "1b9f8113-4783-4872-9e8d-0dec56912b7c")
-		)
-		(pin "3"
-			(uuid "a2b86e5e-2792-498f-a3c0-c451dbee535b")
-		)
-		(pin "4"
-			(uuid "29949293-8319-40dc-813a-d36c1bc49d98")
-		)
-		(pin "2"
-			(uuid "eca66b60-c28f-4924-8607-657a54fd2178")
-		)
-		(pin "1"
-			(uuid "2e89ccb8-69b8-44b7-a002-67225b0a9670")
-		)
-		(instances
-			(project ""
-				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 245.11 238.76 270)
 		(unit 1)
@@ -15331,232 +15223,6 @@
 			(project "EEE3088F Power Board"
 				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
 					(reference "C_P(out)2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AP22966DC8-7:AP22966DC8-7")
-		(at 71.12 238.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3075e826-91a5-4c89-a161-9e4d4bfd5b5f")
-		(property "Reference" "U10"
-			(at 71.12 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP22966DC8-7"
-			(at 71.12 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Imported_Files:IC_AP22966DC8-7"
-			(at 71.12 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588912097186467840"
-			(at 71.12 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Diodes Inc."
-			(at 71.12 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PACKAGE_ID" "31898"
-			(at 71.12 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "WFDFN-14 Diodes Inc."
-			(at 71.12 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 71.12 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/AP22966DC8-7/Diodes+Inc./view-part/?ref=eda"
-			(at 71.12 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 71.12 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "3-2"
-			(at 71.12 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AP22966DC8-7/Diodes+Inc./view-part/?ref=snap"
-			(at 71.12 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "AP22966DC8-7"
-			(at 71.12 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Power Switch/Driver 1:1 N-Channel 6A V-DFN3020-14"
-			(at 71.12 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Diodes Inc."
-			(at 71.12 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 71.12 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.83 mm"
-			(at 71.12 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "26377931-8f9e-4ce2-8446-5341bc84b109")
-		)
-		(pin "1_2"
-			(uuid "7ecbb1c6-0cd0-487e-ab0f-f0db1ae43bf9")
-		)
-		(pin "5"
-			(uuid "d650755b-42d1-4f03-908d-e5c134a557f6")
-		)
-		(pin "12"
-			(uuid "11d5ec21-d814-4ead-980c-8752f6df5c31")
-		)
-		(pin "11"
-			(uuid "e508691a-a22f-4d1c-9863-3003100ebb5b")
-		)
-		(pin "13_14"
-			(uuid "d49494c1-3647-420b-8013-f2119096708c")
-		)
-		(pin "8_9"
-			(uuid "95950fe5-c7b5-4270-858b-fcf09f3d0995")
-		)
-		(pin "4"
-			(uuid "a9033d2f-53c1-4956-9d50-a49017d61a55")
-		)
-		(pin "6_7"
-			(uuid "b41479a5-84c0-4e24-97f3-f247af1526c3")
-		)
-		(pin "10"
-			(uuid "96e87759-38ea-4deb-b574-fc722c554c26")
-		)
-		(pin "15"
-			(uuid "aa1e00e3-46a1-4a6f-a182-2136f77f7bfc")
-		)
-		(instances
-			(project ""
-				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
-					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -21047,6 +20713,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Custom_symbols:SS-12D11G5")
+		(at 69.85 327.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c56f60a4-c0e4-47b0-bc7e-af81f538bcc1")
+		(property "Reference" "SW1"
+			(at 78.74 323.2149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 78.74 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "custom_footprints:SW-TH_SS-12D11G5"
+			(at 69.85 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211009/84F89DEF741E27E9E55DE4039DC07CAD.pdf"
+			(at 69.85 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Circuit:SPDT Actuator Style:Rectangular columnar Pin Style:PCPin Switch Length:13.5mm Switch Width:6.6mm Switch Height:6.3mm Mounting Style:Right-Angle Actuator Color:Black Current Rating (DC):3A Voltage Rating (DC):125V Current Rating (AC):3A Voltage Rat"
+			(at 69.85 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SS-12D11G5"
+			(at 69.85 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XKB Connectivity(中国星坤)"
+			(at 69.85 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C692484"
+			(at 69.85 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 69.85 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "柄长5mm 弯插双档 滑动开关"
+			(at 69.85 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7886275-c3df-4400-927f-6600e3131496")
+		)
+		(pin "3"
+			(uuid "97e1103d-db2e-415e-81f5-385bd2d9e09c")
+		)
+		(pin "5"
+			(uuid "53637308-3c0d-46e9-af66-c2300c010eed")
+		)
+		(pin "2"
+			(uuid "41b54113-07da-427a-9cb2-e31c2755b98f")
+		)
+		(pin "4"
+			(uuid "53118ff4-6925-4466-8909-ca3792161274")
+		)
+		(instances
+			(project ""
+				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 74.93 332.74 0)
 		(unit 1)
@@ -21443,6 +21233,232 @@
 			(project ""
 				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_symbols:AP22966DC8-7")
+		(at 71.12 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d89d8657-b099-4530-a79d-40cf29e27550")
+		(property "Reference" "U7"
+			(at 71.12 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP22966DC8-7"
+			(at 71.12 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom_footprints:IC_AP22966DC8-7"
+			(at 71.12 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Diodes Inc."
+			(at 71.12 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" "31898"
+			(at 71.12 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "WFDFN-14 Diodes Inc."
+			(at 71.12 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 71.12 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/AP22966DC8-7/Diodes+Inc./view-part/?ref=eda"
+			(at 71.12 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 71.12 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "3-2"
+			(at 71.12 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AP22966DC8-7/Diodes+Inc./view-part/?ref=snap"
+			(at 71.12 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "AP22966DC8-7"
+			(at 71.12 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Power Switch/Driver 1:1 N-Channel 6A V-DFN3020-14"
+			(at 71.12 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Diodes Inc."
+			(at 71.12 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 71.12 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.83 mm"
+			(at 71.12 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "15"
+			(uuid "50b0161e-2ff0-4fa6-bcb8-adb525d0760c")
+		)
+		(pin "1_2"
+			(uuid "465ed481-9a03-47aa-98d0-2ac04db42609")
+		)
+		(pin "8_9"
+			(uuid "74df7a02-ebde-4b8e-803e-bbb068134457")
+		)
+		(pin "10"
+			(uuid "3a02138f-f54c-4db9-9a48-a80a14d278ee")
+		)
+		(pin "3"
+			(uuid "137ae367-caa7-4bc5-a78d-624fba2f1efb")
+		)
+		(pin "6_7"
+			(uuid "504d5622-0225-4f1d-8b64-47b69b1873fc")
+		)
+		(pin "11"
+			(uuid "1c2382bf-e55a-4d92-a683-c16c3bd83c7d")
+		)
+		(pin "13_14"
+			(uuid "09c471e3-7f8c-4319-894b-291aaf9b477c")
+		)
+		(pin "5"
+			(uuid "2aa88d00-4ead-4ea5-a97c-605dd2631361")
+		)
+		(pin "4"
+			(uuid "ec9f8933-36d3-4c50-b8f1-371fa78237f4")
+		)
+		(pin "12"
+			(uuid "0159b0ac-8fcd-4c7f-bddb-835ae70c8b7c")
+		)
+		(instances
+			(project ""
+				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
+					(reference "U7")
 					(unit 1)
 				)
 			)

@@ -3066,6 +3066,549 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Custom_symbols:B340A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 2.5422 0.483 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "BA340A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "B340A:SMA-DIODE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Diodes Zetex"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Rectifier Diode Schottky 40V 3A 2-Pin SMA T/R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/B340A/Diodes+Inc./view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PROD_ID" "DIO-09886"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/B340A/Diodes+Inc./view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "B340A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "B340A_0_0"
+				(rectangle
+					(start -1.27 -1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.778 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 0.762 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Custom_symbols:DRV8837DSGR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 16.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "DRV8837DSGR"
+				(at -12.7 -19.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "DRV8837DSGR:SON50P200X200X80-9N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey_Part_Number" "296-34806-2-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/DRV8837DSGR/Texas+Instruments/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "12-V, 1.8-A H-bridge motor driver"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "WSON-8 Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/DRV8837DSGR/Texas+Instruments/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "DRV8837DSGR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "DRV8837DSGR_0_0"
+				(rectangle
+					(start -12.7 -15.24)
+					(end 12.7 15.24)
+					(stroke
+						(width 0.41)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "~{SLEEP}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "IN1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "IN2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 12.7 180)
+					(length 5.08)
+					(name "VM"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 10.16 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "OUT1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "OUT2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "EXP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Custom_symbols:SS-12D11G5"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4484,401 +5027,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Diode:B340"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "B340"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SMC"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "40V 3A Schottky Barrier Rectifier Diode, SMC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SMC*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "B340_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "B340_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Driver_Motor:DRV8837"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 6.35 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "DRV8837"
-				(at -10.16 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
-				(at 0 -21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8837.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "H-Bridge driver, 1.8A, Low Voltage, PWM input, WSON-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "half bridge driver"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "WSON*1EP*2x2mm*P0.5mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DRV8837_0_1"
-				(rectangle
-					(start -7.62 10.16)
-					(end 7.62 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "DRV8837_1_1"
-				(pin input line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "~{SLEEP}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "IN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "IN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 12.7 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name "VM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "OUT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "OUT2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6856,6 +7004,16 @@
 		)
 		(uuid "006853b6-a9ea-4c36-be43-7c3f27b93428")
 	)
+	(text "DRV8837"
+		(exclude_from_sim no)
+		(at 523.24 104.394 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "021758ba-9656-41c5-b2fc-6bb8a1108d2e")
+	)
 	(text "found a 22uH extended preferred but stock count 307??"
 		(exclude_from_sim no)
 		(at 270.002 194.31 0)
@@ -6888,16 +7046,6 @@
 		)
 		(uuid "06d5daa0-a456-472e-a47c-de7e61ec4722")
 	)
-	(text "test points? R?"
-		(exclude_from_sim no)
-		(at 557.022 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0aadb23b-43d5-4fa1-8e35-cfbea2f07824")
-	)
 	(text "INA219AIDCNR Current Sensor - I"
 		(exclude_from_sim no)
 		(at 45.72 129.032 0)
@@ -6920,16 +7068,6 @@
 		)
 		(uuid "13615d4d-3328-4ddc-a4d2-6f3ffeeefb7c")
 	)
-	(text "M3"
-		(exclude_from_sim no)
-		(at 555.498 96.774 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1545fada-e78b-421a-a38f-af8f4f5ab144")
-	)
 	(text "externally applied PWM frequency (from CNTRL pins)"
 		(exclude_from_sim no)
 		(at 502.158 23.368 0)
@@ -6940,25 +7078,35 @@
 		)
 		(uuid "17b782d7-81ad-4813-849a-6bb979aa117a")
 	)
-	(text "M4"
+	(text "B340A"
 		(exclude_from_sim no)
-		(at 555.498 51.308 0)
+		(at 284.988 149.352 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "198f81c4-94b5-44dd-9b7b-34ff2a4a04c4")
+		(uuid "1f6bf235-d392-43d5-a120-7b6c64d30f70")
 	)
 	(text "DRV8837"
 		(exclude_from_sim no)
-		(at 543.052 99.06 0)
+		(at 521.97 56.134 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "2549514a-69c1-440a-b87a-338376eca63a")
+		(uuid "244df870-e10b-47be-9671-8190287bf864")
+	)
+	(text "M4"
+		(exclude_from_sim no)
+		(at 521.462 59.182 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "25f0164e-2669-4349-bcc4-b95245f45b9f")
 	)
 	(text "CTRL = low: R_prog = 5k6: I_batt = 200mA\nCTRL = high: R_prog = 1k8: I_batt = 600mA"
 		(exclude_from_sim no)
@@ -7023,6 +7171,26 @@
 		)
 		(uuid "3eb1e962-224e-4aaa-9e51-b3ec827ec3db")
 	)
+	(text "M3"
+		(exclude_from_sim no)
+		(at 522.732 107.442 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "40e5302e-f1e8-4df2-8207-65982877a5ec")
+	)
+	(text "test points?"
+		(exclude_from_sim no)
+		(at 453.39 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4328e026-5190-45e0-b08e-ba1458fc76cf")
+	)
 	(text "Motor driver H-bridge ICs: DRV8837DSGR"
 		(exclude_from_sim no)
 		(at 502.412 20.32 0)
@@ -7043,16 +7211,6 @@
 			(justify left)
 		)
 		(uuid "453c6fe4-31ef-4d00-b3cf-9bce7680d7b4")
-	)
-	(text "M1"
-		(exclude_from_sim no)
-		(at 484.124 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "458da8f8-3008-4b75-b72e-fba2b3a9f0df")
 	)
 	(text "- Defualt SW_SPDT symbol\n- Pulls power from circuit \n"
 		(exclude_from_sim no)
@@ -7078,7 +7236,7 @@
 	)
 	(text "test points?"
 		(exclude_from_sim no)
-		(at 483.87 44.45 0)
+		(at 453.39 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7288,6 +7446,16 @@
 		)
 		(uuid "8aa28d78-40fb-4456-8635-29ad72d930e7")
 	)
+	(text "M1"
+		(exclude_from_sim no)
+		(at 428.752 108.712 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8c8e8ae6-e044-48f0-8960-69559041989c")
+	)
 	(text "RESV"
 		(exclude_from_sim no)
 		(at 165.1 166.37 0)
@@ -7344,13 +7512,23 @@
 	)
 	(text "jump each IC?"
 		(exclude_from_sim no)
-		(at 445.516 37.338 0)
+		(at 428.752 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "9d266c73-4444-4031-8480-e17dad1fe097")
+	)
+	(text "test points?"
+		(exclude_from_sim no)
+		(at 546.1 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a0072efe-e977-4797-a5d5-cf043cd2925d")
 	)
 	(text "9V input pin"
 		(exclude_from_sim no)
@@ -7364,7 +7542,7 @@
 	)
 	(text "M2"
 		(exclude_from_sim no)
-		(at 482.346 52.324 0)
+		(at 428.752 59.182 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7374,23 +7552,13 @@
 	)
 	(text "jump 3V3 Out \njump +Batt"
 		(exclude_from_sim no)
-		(at 447.04 32.766 0)
+		(at 428.752 19.558 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "a7e0c563-9ca7-49a5-85c8-2cea775a2c4f")
-	)
-	(text "DRV8837"
-		(exclude_from_sim no)
-		(at 471.424 101.346 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ab3132f8-85cd-46a4-b14f-555e41ff5c52")
 	)
 	(text "if transistor config around \nfast charge control doesn't \nwork, disconnect transistor \n@jumper to have only \nslow charging mode"
 		(exclude_from_sim no)
@@ -7460,6 +7628,16 @@
 		)
 		(uuid "b444adb2-4ea7-4f08-9a2f-5d69c4c64918")
 	)
+	(text "test points?"
+		(exclude_from_sim no)
+		(at 547.37 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b8b63319-3a70-47d9-96fd-4a2ca50a551d")
+	)
 	(text "Acceptance testing:\n- With out battery\n- Check for SC test with multimeter\n\nFixing:\n- Pull of and solder man"
 		(exclude_from_sim no)
 		(at 24.13 309.88 0)
@@ -7525,7 +7703,7 @@
 	)
 	(text "DRV8837"
 		(exclude_from_sim no)
-		(at 469.646 54.61 0)
+		(at 429.26 56.134 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7645,13 +7823,13 @@
 	)
 	(text "DRV8837"
 		(exclude_from_sim no)
-		(at 542.036 52.832 0)
+		(at 429.26 105.664 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "f6ab310b-b8bc-4d4d-9869-3d3a23d48008")
+		(uuid "f783ae12-3377-4634-b729-cdca1138e225")
 	)
 	(text "9V"
 		(exclude_from_sim no)
@@ -7680,6 +7858,12 @@
 		(uuid "0ebd8648-da6e-4ea9-9b42-d23444f1a318")
 	)
 	(junction
+		(at 449.58 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11365805-aace-4d27-9cf7-49ac90120373")
+	)
+	(junction
 		(at 134.62 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7690,6 +7874,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13882380-978f-47c8-81a2-f2d546b49bb4")
+	)
+	(junction
+		(at 449.58 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1396138e-0c80-4cbc-84df-b669fecee94b")
 	)
 	(junction
 		(at 375.92 222.25)
@@ -7714,12 +7904,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "247ba46f-08d0-45f4-93b5-9e20393bac95")
-	)
-	(junction
-		(at 537.21 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a25c3b0-5cf7-4b38-a99f-ee4941a8d0af")
 	)
 	(junction
 		(at 184.15 223.52)
@@ -7806,16 +7990,22 @@
 		(uuid "5f78b387-4751-4ee4-b024-03c50238f848")
 	)
 	(junction
+		(at 541.02 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6989f574-1c0c-4e69-97c3-c53911b2f226")
+	)
+	(junction
 		(at 279.4 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a062d95-2f51-4417-9ac3-390330c07034")
 	)
 	(junction
-		(at 538.48 80.01)
+		(at 542.29 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7128641e-c5ef-41a9-abc2-dad21405cfdf")
+		(uuid "6d373c6e-8545-4cb2-a55e-4d286f08b21b")
 	)
 	(junction
 		(at 229.87 57.15)
@@ -7846,12 +8036,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "854abd03-de45-4007-ade2-1ae1288c623c")
-	)
-	(junction
-		(at 464.82 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ae4bf69-4ca2-4fe3-8a16-8223d9381f79")
 	)
 	(junction
 		(at 342.9 160.02)
@@ -7896,22 +8080,28 @@
 		(uuid "a329fb27-7cfa-43ad-a478-550bb8389403")
 	)
 	(junction
+		(at 543.56 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a583d385-3bf6-476d-a2da-41a8ac455234")
+	)
+	(junction
 		(at 401.32 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7d71b01-7e10-4b3e-9933-751bc8c7324b")
 	)
 	(junction
+		(at 279.4 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4169c15-83f1-42ea-bccc-5993cda9b5f4")
+	)
+	(junction
 		(at 74.93 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba7411ff-ba11-49c9-994b-21ab57f3b915")
-	)
-	(junction
-		(at 279.4 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bbf4311c-73ca-4fa0-99b5-4992c47bdb82")
 	)
 	(junction
 		(at 107.95 162.56)
@@ -7956,16 +8146,22 @@
 		(uuid "c7ef6865-7261-4701-97b1-f31f4a59b413")
 	)
 	(junction
-		(at 279.4 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c827a636-d8a8-40cd-8fa2-3d3245750148")
-	)
-	(junction
 		(at 43.18 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c93e93ca-0e77-4137-b496-5ae28c6311fe")
+	)
+	(junction
+		(at 279.4 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9f4f8bc-4458-4528-8294-8720335dfa76")
+	)
+	(junction
+		(at 448.31 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d053445e-447b-46a2-ba3b-ab0e1d197f97")
 	)
 	(junction
 		(at 375.92 160.02)
@@ -8002,6 +8198,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e02b9e68-2184-461c-b57f-194686c69d0f")
+	)
+	(junction
+		(at 448.31 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2414bbe-eca6-4a21-8d33-e5cf6f5bc22b")
 	)
 	(junction
 		(at 95.25 143.51)
@@ -8064,16 +8266,16 @@
 		(uuid "f4b47f0e-afb7-43ab-966d-89815f81144c")
 	)
 	(junction
-		(at 466.09 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7514047-4c18-447b-b0aa-bc06530e8d4b")
-	)
-	(junction
 		(at 259.08 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7b563a2-37c6-42e7-8790-b3700a9da701")
+	)
+	(junction
+		(at 542.29 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbb72e24-b4c7-488a-84a8-9c0c290c5e11")
 	)
 	(junction
 		(at 111.76 64.77)
@@ -8165,6 +8367,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 143.51) (xy 288.29 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "024b7b6d-6b3d-407f-896d-1fb6f7465657")
+	)
+	(wire
+		(pts
 			(xy 195.58 256.54) (xy 200.66 256.54)
 		)
 		(stroke
@@ -8195,13 +8407,13 @@
 	)
 	(wire
 		(pts
-			(xy 478.79 92.71) (xy 482.6 92.71)
+			(xy 504.19 49.53) (xy 504.19 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "04b82172-f00f-4e94-9dcd-f567cb95ea61")
+		(uuid "04838b80-8bcd-4375-bd46-12437088d17b")
 	)
 	(wire
 		(pts
@@ -8232,16 +8444,6 @@
 			(type default)
 		)
 		(uuid "06033d9e-519a-47ae-87de-88dc20295ab6")
-	)
-	(wire
-		(pts
-			(xy 514.35 100.33) (xy 530.86 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0604fa6d-5e91-44c8-98c8-66088e4b5e3f")
 	)
 	(wire
 		(pts
@@ -8385,6 +8587,16 @@
 	)
 	(wire
 		(pts
+			(xy 411.48 30.48) (xy 448.31 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "117bdec3-43ee-4e4d-aa3c-8be6b32d0315")
+	)
+	(wire
+		(pts
 			(xy 386.08 140.97) (xy 375.92 140.97)
 		)
 		(stroke
@@ -8405,16 +8617,6 @@
 	)
 	(wire
 		(pts
-			(xy 551.18 105.41) (xy 554.99 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11d7ef1c-4755-43d2-b95b-cb96bbd9a793")
-	)
-	(wire
-		(pts
 			(xy 21.59 219.71) (xy 21.59 220.98)
 		)
 		(stroke
@@ -8425,7 +8627,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 143.51) (xy 288.29 143.51)
+			(xy 273.05 143.51) (xy 279.4 143.51)
 		)
 		(stroke
 			(width 0)
@@ -8462,16 +8664,6 @@
 			(type default)
 		)
 		(uuid "16184104-f672-4ac6-8e9f-396c5e8211be")
-	)
-	(wire
-		(pts
-			(xy 537.21 39.37) (xy 537.21 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16906fb5-734b-428f-b4a8-5ab7b1f354db")
 	)
 	(wire
 		(pts
@@ -8525,16 +8717,6 @@
 	)
 	(wire
 		(pts
-			(xy 441.96 100.33) (xy 458.47 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a39cf7e-5374-4589-9cc9-5ccf781e79aa")
-	)
-	(wire
-		(pts
 			(xy 218.44 57.15) (xy 229.87 57.15)
 		)
 		(stroke
@@ -8562,16 +8744,6 @@
 			(type default)
 		)
 		(uuid "1c7b5656-0189-4eed-b467-b03bb89074e3")
-	)
-	(wire
-		(pts
-			(xy 541.02 82.55) (xy 541.02 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d5770ea-f83e-4b39-b6a4-ca3bb6db5c9d")
 	)
 	(wire
 		(pts
@@ -8605,6 +8777,16 @@
 	)
 	(wire
 		(pts
+			(xy 449.58 111.76) (xy 449.58 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ff773e0-2b6e-4d76-bdc4-a2259adb92c8")
+	)
+	(wire
+		(pts
 			(xy 401.32 205.74) (xy 401.32 189.23)
 		)
 		(stroke
@@ -8632,16 +8814,6 @@
 			(type default)
 		)
 		(uuid "226b3ca9-ebd0-4db6-a85d-6c6526bcf081")
-	)
-	(wire
-		(pts
-			(xy 546.1 82.55) (xy 541.02 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "229f18e9-93e4-44ad-8be6-1532650a8469")
 	)
 	(wire
 		(pts
@@ -8675,7 +8847,7 @@
 	)
 	(wire
 		(pts
-			(xy 425.45 78.74) (xy 425.45 74.93)
+			(xy 372.11 50.8) (xy 372.11 46.99)
 		)
 		(stroke
 			(width 0)
@@ -8815,23 +8987,13 @@
 	)
 	(wire
 		(pts
-			(xy 477.52 45.72) (xy 490.22 45.72)
+			(xy 447.04 49.53) (xy 459.74 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2f80b13f-f8d6-4fc9-92ae-405145558af8")
-	)
-	(wire
-		(pts
-			(xy 538.48 85.09) (xy 538.48 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "312c5828-5958-491d-a471-7782edb9a044")
 	)
 	(wire
 		(pts
@@ -8875,16 +9037,6 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 40.64) (xy 464.82 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35a49aac-876c-4327-8ed0-c191cba4ad03")
-	)
-	(wire
-		(pts
 			(xy 102.87 311.15) (xy 97.79 311.15)
 		)
 		(stroke
@@ -8892,6 +9044,16 @@
 			(type default)
 		)
 		(uuid "3788ce25-499f-44cf-bef5-55ad7e1c7b56")
+	)
+	(wire
+		(pts
+			(xy 541.02 30.48) (xy 541.02 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37976318-9f9e-4d19-8742-bb76b0c8a095")
 	)
 	(wire
 		(pts
@@ -8905,13 +9067,33 @@
 	)
 	(wire
 		(pts
-			(xy 514.35 97.79) (xy 530.86 97.79)
+			(xy 447.04 44.45) (xy 448.31 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a3459a4-acdc-42f9-b339-3746327c2cc8")
+		(uuid "382085c9-6d78-4155-bc66-499559a16384")
+	)
+	(wire
+		(pts
+			(xy 394.97 101.6) (xy 411.48 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "399583d1-fea0-41f2-be24-cf10a26900c5")
+	)
+	(wire
+		(pts
+			(xy 487.68 54.61) (xy 504.19 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b10cae3-6662-4a4f-981e-ffce35e66c88")
 	)
 	(wire
 		(pts
@@ -8922,6 +9104,36 @@
 			(type default)
 		)
 		(uuid "3bcc6c2d-225f-41c1-9a39-e57fa47f5f8c")
+	)
+	(wire
+		(pts
+			(xy 541.02 92.71) (xy 542.29 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c8b5548-71ea-43d0-a498-9821a0473932")
+	)
+	(wire
+		(pts
+			(xy 447.04 41.91) (xy 457.2 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d64aaa3-defc-46db-9cf5-9a1e5065aa68")
+	)
+	(wire
+		(pts
+			(xy 448.31 93.98) (xy 457.2 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e5dfd9c-70f0-419e-84ed-6fa72a6f821e")
 	)
 	(wire
 		(pts
@@ -8945,13 +9157,13 @@
 	)
 	(wire
 		(pts
-			(xy 467.36 38.1) (xy 467.36 40.64)
+			(xy 394.97 52.07) (xy 411.48 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3fc01071-f3be-4af5-b933-b1f4d748e551")
+		(uuid "3f956c98-f86e-46ab-be74-e1f33416069d")
 	)
 	(wire
 		(pts
@@ -8975,6 +9187,16 @@
 	)
 	(wire
 		(pts
+			(xy 394.97 104.14) (xy 411.48 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40f4fb82-c445-4861-9f26-e1591cfbf029")
+	)
+	(wire
+		(pts
 			(xy 342.9 180.34) (xy 342.9 179.07)
 		)
 		(stroke
@@ -8985,16 +9207,6 @@
 	)
 	(wire
 		(pts
-			(xy 440.69 53.34) (xy 457.2 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4350eaed-f9d2-4c1f-9888-a786147a89ee")
-	)
-	(wire
-		(pts
 			(xy 180.34 229.87) (xy 184.15 229.87)
 		)
 		(stroke
@@ -9002,16 +9214,6 @@
 			(type default)
 		)
 		(uuid "4392f378-1fc6-4936-9552-0927d41ca586")
-	)
-	(wire
-		(pts
-			(xy 458.47 97.79) (xy 458.47 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "441fd487-3bf1-4a37-8f24-da77877f1925")
 	)
 	(wire
 		(pts
@@ -9032,6 +9234,16 @@
 			(type default)
 		)
 		(uuid "459b277f-2af2-4777-8929-0b6682b3ffae")
+	)
+	(wire
+		(pts
+			(xy 539.75 52.07) (xy 552.45 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "465346fb-7a7f-425e-8d86-b65360c8c893")
 	)
 	(wire
 		(pts
@@ -9085,6 +9297,16 @@
 	)
 	(wire
 		(pts
+			(xy 447.04 62.23) (xy 449.58 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c5abf1-0dba-471f-bce8-e186a0345bf1")
+	)
+	(wire
+		(pts
 			(xy 234.95 237.49) (xy 234.95 238.76)
 		)
 		(stroke
@@ -9102,16 +9324,6 @@
 			(type default)
 		)
 		(uuid "4bfbaf11-b6e3-4165-ac2d-5ef8b11f1f74")
-	)
-	(wire
-		(pts
-			(xy 538.48 80.01) (xy 544.83 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ce59f00-6de9-4670-adca-b6e7a165b3dd")
 	)
 	(wire
 		(pts
@@ -9205,6 +9417,16 @@
 	)
 	(wire
 		(pts
+			(xy 448.31 80.01) (xy 448.31 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56b93f3f-2456-44d2-8c82-7f539f4d54d6")
+	)
+	(wire
+		(pts
 			(xy 401.32 220.98) (xy 401.32 234.95)
 		)
 		(stroke
@@ -9212,6 +9434,16 @@
 			(type default)
 		)
 		(uuid "56c088cf-44a4-4b44-a17e-0aa40291873a")
+	)
+	(wire
+		(pts
+			(xy 542.29 92.71) (xy 551.18 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "583cf4ff-701f-499b-bd07-87e3c3644170")
 	)
 	(wire
 		(pts
@@ -9265,13 +9497,13 @@
 	)
 	(wire
 		(pts
-			(xy 478.79 107.95) (xy 482.6 107.95)
+			(xy 541.02 44.45) (xy 549.91 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b909877-f584-41e5-a41b-956a08a10605")
+		(uuid "5bb214df-f084-499a-bcb3-6b0a83de0024")
 	)
 	(polyline
 		(pts
@@ -9292,6 +9524,16 @@
 			(type default)
 		)
 		(uuid "5cedbd4f-ba65-4b88-9f1e-c4cecdc5a5b3")
+	)
+	(wire
+		(pts
+			(xy 447.04 111.76) (xy 449.58 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e9751af-e2e6-42b9-a107-664569c2fc0a")
 	)
 	(wire
 		(pts
@@ -9393,19 +9635,9 @@
 		)
 		(uuid "67dbbf0c-108a-4190-b623-3af883a40055")
 	)
-	(polyline
-		(pts
-			(xy 406.4 108.585) (xy 406.4 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68071dc7-fadd-4c08-be6a-27c35b533367")
-	)
 	(wire
 		(pts
-			(xy 425.45 67.31) (xy 425.45 63.5)
+			(xy 372.11 39.37) (xy 372.11 35.56)
 		)
 		(stroke
 			(width 0)
@@ -9432,6 +9664,16 @@
 			(type default)
 		)
 		(uuid "6ac63ae7-9ed6-461a-ade7-d9d3e03456ac")
+	)
+	(wire
+		(pts
+			(xy 447.04 91.44) (xy 457.2 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6adb4988-d686-4f64-9246-5ee4096b710a")
 	)
 	(wire
 		(pts
@@ -9465,6 +9707,26 @@
 	)
 	(wire
 		(pts
+			(xy 488.95 102.87) (xy 505.46 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d682542-2511-46df-9e6f-05e07aaf0601")
+	)
+	(wire
+		(pts
+			(xy 542.29 62.23) (xy 542.29 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d94bf7e-e619-4c47-be96-5b225c63fad5")
+	)
+	(wire
+		(pts
 			(xy 184.15 173.99) (xy 205.74 173.99)
 		)
 		(stroke
@@ -9482,6 +9744,16 @@
 			(type default)
 		)
 		(uuid "6dfa89ff-a8ca-4571-a004-a8e1312d0c89")
+	)
+	(wire
+		(pts
+			(xy 504.19 30.48) (xy 541.02 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "701fae86-96ce-45e7-b3ba-cd8cea0580b2")
 	)
 	(wire
 		(pts
@@ -9535,26 +9807,6 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 35.56) (xy 471.17 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7515246e-8374-4665-b8a9-5d7397908407")
-	)
-	(wire
-		(pts
-			(xy 530.86 95.25) (xy 530.86 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "753a0433-a7ac-491d-91da-f249b5570015")
-	)
-	(wire
-		(pts
 			(xy 184.15 176.53) (xy 186.69 176.53)
 		)
 		(stroke
@@ -9572,6 +9824,26 @@
 			(type default)
 		)
 		(uuid "774e4fa1-9e99-41e9-90c7-7d598dc2e07b")
+	)
+	(wire
+		(pts
+			(xy 447.04 99.06) (xy 459.74 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7797a26f-6957-41cd-b6c0-8bdc2558e2ff")
+	)
+	(wire
+		(pts
+			(xy 447.04 64.77) (xy 449.58 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77e03661-99d1-4d60-84ad-a2b4ca7ab414")
 	)
 	(wire
 		(pts
@@ -9625,13 +9897,13 @@
 	)
 	(wire
 		(pts
-			(xy 440.69 55.88) (xy 457.2 55.88)
+			(xy 539.75 62.23) (xy 542.29 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "794fd8ef-23b2-492c-9fb4-9d04a4281052")
+		(uuid "78cd20b9-163f-4422-a0ec-cfbca2269136")
 	)
 	(wire
 		(pts
@@ -9642,6 +9914,16 @@
 			(type default)
 		)
 		(uuid "7996f14c-ba0a-4f25-a579-989d3d462ee7")
+	)
+	(wire
+		(pts
+			(xy 279.4 143.51) (xy 279.4 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79b4ec7e-28a8-4e59-86ef-2db6a3826b7d")
 	)
 	(wire
 		(pts
@@ -9705,16 +9987,6 @@
 	)
 	(wire
 		(pts
-			(xy 513.08 54.61) (xy 529.59 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e0c992d-7b85-4200-90f4-4ac6927ecae8")
-	)
-	(wire
-		(pts
 			(xy 229.87 64.77) (xy 229.87 67.31)
 		)
 		(stroke
@@ -9722,16 +9994,6 @@
 			(type default)
 		)
 		(uuid "7e1011ab-3301-4bb1-aa58-42f51d8f26a9")
-	)
-	(polyline
-		(pts
-			(xy 407.67 125.73) (xy 581.66 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e64c6ec-e912-469b-8739-ca7e497b6954")
 	)
 	(wire
 		(pts
@@ -9742,6 +10004,16 @@
 			(type default)
 		)
 		(uuid "7ec1d3e1-fe1a-4896-8c0f-bf93457f3a4e")
+	)
+	(wire
+		(pts
+			(xy 488.95 100.33) (xy 505.46 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7edbeac6-b959-48d4-8eeb-b8e1198a3f12")
 	)
 	(wire
 		(pts
@@ -9762,6 +10034,16 @@
 			(type default)
 		)
 		(uuid "7f6244c5-d6e7-4e8c-bfc6-1d05c844ecf9")
+	)
+	(wire
+		(pts
+			(xy 539.75 44.45) (xy 541.02 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fff67e1-6c54-400b-afdb-a29e6f7a85de")
 	)
 	(wire
 		(pts
@@ -9815,7 +10097,27 @@
 	)
 	(wire
 		(pts
-			(xy 477.52 60.96) (xy 481.33 60.96)
+			(xy 541.02 97.79) (xy 553.72 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8607bfa5-2265-4504-ae9e-e3ae8b13768f")
+	)
+	(wire
+		(pts
+			(xy 541.02 113.03) (xy 543.56 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86e96f76-d450-41b7-91e1-936c6dba5110")
+	)
+	(wire
+		(pts
+			(xy 447.04 52.07) (xy 459.74 52.07)
 		)
 		(stroke
 			(width 0)
@@ -9885,13 +10187,13 @@
 	)
 	(wire
 		(pts
-			(xy 441.96 102.87) (xy 458.47 102.87)
+			(xy 543.56 110.49) (xy 543.56 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8b312a41-8aba-4099-95b3-67b65a69dc83")
+		(uuid "89b5eacc-558b-46ed-8e46-7cb0198c910f")
 	)
 	(polyline
 		(pts
@@ -9902,6 +10204,16 @@
 			(type default)
 		)
 		(uuid "8b6e554a-1316-4ed7-bd51-84c17175a37a")
+	)
+	(wire
+		(pts
+			(xy 411.48 80.01) (xy 448.31 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c5ccd2b-0ecc-4008-bcd0-83566dff1877")
 	)
 	(wire
 		(pts
@@ -9985,6 +10297,16 @@
 	)
 	(wire
 		(pts
+			(xy 487.68 52.07) (xy 504.19 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "946e1bfa-92aa-45dd-9a8e-e86110942860")
+	)
+	(wire
+		(pts
 			(xy 156.21 186.69) (xy 171.45 186.69)
 		)
 		(stroke
@@ -9992,6 +10314,16 @@
 			(type default)
 		)
 		(uuid "94737080-e1c2-497d-a453-5b26fffb1c80")
+	)
+	(wire
+		(pts
+			(xy 447.04 114.3) (xy 449.58 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a3646c-2a49-4fb1-b4de-676455d067ae")
 	)
 	(wire
 		(pts
@@ -10022,6 +10354,16 @@
 			(type default)
 		)
 		(uuid "981a5157-c34f-4d0b-97aa-c5cee9bcb928")
+	)
+	(wire
+		(pts
+			(xy 539.75 41.91) (xy 549.91 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "982126b7-17bd-447f-9fb2-54ac83ab34a1")
 	)
 	(wire
 		(pts
@@ -10105,6 +10447,16 @@
 	)
 	(wire
 		(pts
+			(xy 447.04 101.6) (xy 459.74 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c207caa-c81d-4d0f-b9b9-08d0558ffaee")
+	)
+	(wire
+		(pts
 			(xy 99.06 50.8) (xy 100.33 50.8)
 		)
 		(stroke
@@ -10165,6 +10517,16 @@
 	)
 	(wire
 		(pts
+			(xy 448.31 30.48) (xy 448.31 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5beb53-186e-40bc-94ca-4bcd51f21ec3")
+	)
+	(wire
+		(pts
 			(xy 151.13 179.07) (xy 151.13 176.53)
 		)
 		(stroke
@@ -10192,16 +10554,6 @@
 			(type default)
 		)
 		(uuid "a2117a20-9b4d-4259-af55-125df9ea5426")
-	)
-	(wire
-		(pts
-			(xy 549.91 44.45) (xy 562.61 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a31a1ae3-ba10-45a7-844e-0fead27ee86b")
 	)
 	(polyline
 		(pts
@@ -10265,13 +10617,13 @@
 	)
 	(wire
 		(pts
-			(xy 513.08 52.07) (xy 529.59 52.07)
+			(xy 411.48 49.53) (xy 411.48 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a74c995c-2409-4573-aa10-19e81c78f2a5")
+		(uuid "a7a6affd-8370-4470-8923-3c27c960713b")
 	)
 	(wire
 		(pts
@@ -10295,23 +10647,13 @@
 	)
 	(wire
 		(pts
-			(xy 457.2 50.8) (xy 457.2 35.56)
+			(xy 411.48 99.06) (xy 411.48 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aad29186-21ef-40cc-ac30-b7893ff93e0c")
-	)
-	(wire
-		(pts
-			(xy 537.21 34.29) (xy 543.56 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab0a08bc-9226-47c0-a99f-cc9ec90ec9b6")
+		(uuid "a93a0ea6-25d1-4bdb-8b34-71ed15effe23")
 	)
 	(wire
 		(pts
@@ -10405,13 +10747,23 @@
 	)
 	(wire
 		(pts
-			(xy 530.86 80.01) (xy 538.48 80.01)
+			(xy 539.75 49.53) (xy 552.45 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae278a64-54b3-48d9-b400-5250cb291907")
+		(uuid "aebd0470-f08d-42be-8d28-3ded10fc3c73")
+	)
+	(wire
+		(pts
+			(xy 447.04 93.98) (xy 448.31 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af5b59de-5e5e-4011-8b90-2d07409872bb")
 	)
 	(wire
 		(pts
@@ -10453,16 +10805,6 @@
 		)
 		(uuid "b31dca38-5762-4448-85aa-2655358331ee")
 	)
-	(wire
-		(pts
-			(xy 457.2 35.56) (xy 464.82 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b393498e-eff0-47fd-8897-3b132cbdc42d")
-	)
 	(polyline
 		(pts
 			(xy 142.24 283.21) (xy 142.24 284.48)
@@ -10495,16 +10837,6 @@
 	)
 	(wire
 		(pts
-			(xy 549.91 59.69) (xy 562.61 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b79ceb3f-0242-49ae-8a3c-7569034c880a")
-	)
-	(wire
-		(pts
 			(xy 120.65 77.47) (xy 120.65 72.39)
 		)
 		(stroke
@@ -10512,6 +10844,16 @@
 			(type default)
 		)
 		(uuid "b8fdcf5b-c83a-4665-95a7-8bc6ee02d87c")
+	)
+	(wire
+		(pts
+			(xy 541.02 110.49) (xy 543.56 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9846b28-aee9-4de2-b1a5-6eb21511f986")
 	)
 	(polyline
 		(pts
@@ -10522,6 +10864,16 @@
 			(type default)
 		)
 		(uuid "b9c8b56e-2423-4def-b796-978ce81d0a9e")
+	)
+	(wire
+		(pts
+			(xy 505.46 97.79) (xy 505.46 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9eebe4b-9d20-4b97-a56f-d20ff2431f86")
 	)
 	(wire
 		(pts
@@ -10555,6 +10907,36 @@
 	)
 	(wire
 		(pts
+			(xy 505.46 78.74) (xy 542.29 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf9324a-c461-4521-83e0-7a3dfbbf5ab1")
+	)
+	(wire
+		(pts
+			(xy 279.4 149.86) (xy 279.4 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd69341e-a080-4fa7-9c36-11da8b313dae")
+	)
+	(wire
+		(pts
+			(xy 448.31 44.45) (xy 457.2 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be9a8c24-c762-47d9-96f5-8a531be77b70")
+	)
+	(wire
+		(pts
 			(xy 229.87 57.15) (xy 237.49 57.15)
 		)
 		(stroke
@@ -10585,16 +10967,6 @@
 	)
 	(wire
 		(pts
-			(xy 458.47 82.55) (xy 466.09 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c05f1e4c-2abe-4146-a11e-0ee22c8213dc")
-	)
-	(wire
-		(pts
 			(xy 386.08 177.8) (xy 394.97 177.8)
 		)
 		(stroke
@@ -10602,16 +10974,6 @@
 			(type default)
 		)
 		(uuid "c171aece-2c47-434b-b757-4f657e351465")
-	)
-	(wire
-		(pts
-			(xy 539.75 36.83) (xy 539.75 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2bbc806-4232-405d-b006-32fd9c547f35")
 	)
 	(wire
 		(pts
@@ -10632,6 +10994,16 @@
 			(type default)
 		)
 		(uuid "c3f8d8c9-30c2-4835-b7a2-2a8b086de82f")
+	)
+	(wire
+		(pts
+			(xy 394.97 54.61) (xy 411.48 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c40d6b75-9486-47b5-953d-60cbfef2595a")
 	)
 	(wire
 		(pts
@@ -10672,16 +11044,6 @@
 			(type default)
 		)
 		(uuid "c4fff7ec-6748-46b8-a027-59730a0da6e1")
-	)
-	(wire
-		(pts
-			(xy 544.83 36.83) (xy 539.75 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c55f82b0-b121-41a6-91ac-b310117b9bdb")
 	)
 	(wire
 		(pts
@@ -10825,6 +11187,16 @@
 	)
 	(wire
 		(pts
+			(xy 543.56 113.03) (xy 543.56 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb04c2a0-cc8e-406c-883b-fa2ae588a95c")
+	)
+	(wire
+		(pts
 			(xy 213.36 143.51) (xy 222.25 143.51)
 		)
 		(stroke
@@ -10925,13 +11297,43 @@
 	)
 	(wire
 		(pts
-			(xy 466.09 87.63) (xy 466.09 82.55)
+			(xy 449.58 114.3) (xy 449.58 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d51d4587-ee94-4284-957c-56876f644438")
+		(uuid "cf414a12-48d9-4367-8f8d-87a8355f995c")
+	)
+	(wire
+		(pts
+			(xy 542.29 78.74) (xy 542.29 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d20b6c97-2243-4d44-bb50-d8ed8c56aa42")
+	)
+	(wire
+		(pts
+			(xy 539.75 64.77) (xy 542.29 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d39c32df-529b-46ea-93c2-8b5127880232")
+	)
+	(wire
+		(pts
+			(xy 542.29 64.77) (xy 542.29 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d51085ae-336d-4244-9759-a5545b8a73e5")
 	)
 	(wire
 		(pts
@@ -10945,16 +11347,6 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 34.29) (xy 537.21 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5f375f8-9a94-4920-ab9d-2106c337b2ae")
-	)
-	(wire
-		(pts
 			(xy 95.25 160.02) (xy 116.84 160.02)
 		)
 		(stroke
@@ -10962,6 +11354,16 @@
 			(type default)
 		)
 		(uuid "d7bf7f23-922d-4014-a701-a9a6413e2848")
+	)
+	(wire
+		(pts
+			(xy 541.02 100.33) (xy 553.72 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9428b9f-c439-4ae2-8b92-50c05e87797b")
 	)
 	(wire
 		(pts
@@ -10975,16 +11377,6 @@
 	)
 	(wire
 		(pts
-			(xy 473.71 85.09) (xy 468.63 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da209329-b678-4c46-b8c4-69345e704415")
-	)
-	(wire
-		(pts
 			(xy 149.86 49.53) (xy 149.86 50.8)
 		)
 		(stroke
@@ -10995,16 +11387,6 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 38.1) (xy 467.36 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbf29807-ba4b-41c9-9295-ff9a03a1c7e6")
-	)
-	(wire
-		(pts
 			(xy 36.83 161.29) (xy 43.18 161.29)
 		)
 		(stroke
@@ -11012,16 +11394,6 @@
 			(type default)
 		)
 		(uuid "dc2c1e73-5235-4a41-9b48-c2b62502c076")
-	)
-	(wire
-		(pts
-			(xy 551.18 90.17) (xy 554.99 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcbb9f41-a106-4ef9-b823-4cc291e5ba4d")
 	)
 	(wire
 		(pts
@@ -11155,6 +11527,26 @@
 	)
 	(wire
 		(pts
+			(xy 541.02 90.17) (xy 551.18 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5b41f77-95e3-4f59-be49-e7021dcc351f")
+	)
+	(wire
+		(pts
+			(xy 449.58 64.77) (xy 449.58 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5f8bb50-a3a5-46bf-b447-bc605296e14a")
+	)
+	(wire
+		(pts
 			(xy 386.08 144.78) (xy 386.08 140.97)
 		)
 		(stroke
@@ -11175,6 +11567,16 @@
 	)
 	(wire
 		(pts
+			(xy 449.58 62.23) (xy 449.58 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e876da66-97e4-4bfe-b3a1-e060d5ab5921")
+	)
+	(wire
+		(pts
 			(xy 342.9 222.25) (xy 355.6 222.25)
 		)
 		(stroke
@@ -11182,16 +11584,6 @@
 			(type default)
 		)
 		(uuid "e8e1a6e3-2248-472f-b747-145f09cfb7b2")
-	)
-	(wire
-		(pts
-			(xy 529.59 49.53) (xy 529.59 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e90d9d6c-fa1f-450c-823a-da9e66a695f8")
 	)
 	(wire
 		(pts
@@ -11225,16 +11617,6 @@
 	)
 	(wire
 		(pts
-			(xy 468.63 85.09) (xy 468.63 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed42435e-c24a-423d-922a-e31495e95b65")
-	)
-	(wire
-		(pts
 			(xy 58.42 167.64) (xy 58.42 168.91)
 		)
 		(stroke
@@ -11242,26 +11624,6 @@
 			(type default)
 		)
 		(uuid "edf8ff61-c04f-48a3-b7bd-7fcdd1c82dfe")
-	)
-	(wire
-		(pts
-			(xy 466.09 82.55) (xy 472.44 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee9c8da1-a637-4da5-9ff5-e2cf250f9698")
-	)
-	(wire
-		(pts
-			(xy 273.05 143.51) (xy 279.4 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1a7c223-4b6c-4bc7-a01d-739ff6a6c859")
 	)
 	(wire
 		(pts
@@ -11342,16 +11704,6 @@
 			(type default)
 		)
 		(uuid "f72312bf-2a44-433a-82db-14c4eefe8a0b")
-	)
-	(polyline
-		(pts
-			(xy 407.67 125.73) (xy 407.67 13.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f781c902-c215-4139-95e7-3e08996ab7c3")
 	)
 	(wire
 		(pts
@@ -11473,6 +11825,16 @@
 		)
 		(uuid "08c6b90d-e959-4ec5-8fc7-97fa67cfbf37")
 	)
+	(label "MOTOR1_A_OUT"
+		(at 459.74 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c84d244-fd35-4a2a-8014-df3dd05b9a91")
+	)
 	(label "CTRL_EXT_LOAD2"
 		(at 27.94 246.38 0)
 		(effects
@@ -11482,6 +11844,16 @@
 			(justify left bottom)
 		)
 		(uuid "0d5cdb1b-53e3-427a-9b7f-8cf6b4f1944a")
+	)
+	(label "3V3_M"
+		(at 549.91 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e48b227-5acc-4107-b0c5-d9acf4149ed9")
 	)
 	(label "Battery"
 		(at 433.07 172.72 0)
@@ -11494,7 +11866,7 @@
 		(uuid "0e8b566b-e4c3-4d67-a561-ca9dfbe4df11")
 	)
 	(label "MOTOR2_CTRL1"
-		(at 440.69 53.34 0)
+		(at 394.97 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11563,15 +11935,15 @@
 		)
 		(uuid "184b772d-5721-4570-8b23-0740db9b71f5")
 	)
-	(label "MOTOR1_A_OUT"
-		(at 482.6 92.71 0)
+	(label "Battery"
+		(at 551.18 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "21b87b13-a6e6-4c51-b177-4f8459bc9540")
+		(uuid "1c0cf3f3-0006-462a-bd8d-71ac6e1e1d7a")
 	)
 	(label "MOTOR1_A_OUT"
 		(at 186.69 186.69 0)
@@ -11593,6 +11965,26 @@
 		)
 		(uuid "2966b160-0b9a-4aa2-8656-11e8734d8a08")
 	)
+	(label "MOTOR1_CTRL2"
+		(at 394.97 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d2b2a49-c96a-4cc3-82e2-addd9c9bb646")
+	)
+	(label "MOTOR4_CTRL2"
+		(at 487.68 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3076f511-72a2-4d68-b43a-f96f1c5725e4")
+	)
 	(label "CC2"
 		(at 194.31 248.92 0)
 		(effects
@@ -11613,15 +12005,15 @@
 		)
 		(uuid "37af5bc6-7a23-4740-8e5b-77dfc1d2e079")
 	)
-	(label "MOTOR3_CTRL2"
-		(at 514.35 100.33 0)
+	(label "MOTOR4_CTRL1"
+		(at 487.68 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "37dda5ec-e1ae-4542-863b-3644afd576fb")
+		(uuid "3c757c86-8606-491c-931b-b29849522694")
 	)
 	(label "MOTOR2_CTRL2"
 		(at 186.69 153.67 0)
@@ -11663,6 +12055,16 @@
 		)
 		(uuid "4905a2fd-1733-4d40-b811-5d49ba61e96e")
 	)
+	(label "MOTOR3_CTRL1"
+		(at 488.95 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "499be29d-4e4e-4fec-8937-df5405e7ed8d")
+	)
 	(label "FAST_CHARGE_CTRL"
 		(at 342.9 222.25 0)
 		(effects
@@ -11682,6 +12084,16 @@
 			(justify left bottom)
 		)
 		(uuid "4b92edfe-edad-449a-9c4b-30cef341fe8b")
+	)
+	(label "3V3_M"
+		(at 551.18 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4c3e5655-0fd7-4626-b13c-a5c1b77bd217")
 	)
 	(label "MOTOR3_A_OUT"
 		(at 156.21 181.61 0)
@@ -11703,16 +12115,6 @@
 		)
 		(uuid "4f083f0e-b787-40d1-adea-12af44c41b52")
 	)
-	(label "MOTOR4_B_OUT"
-		(at 562.61 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4fa2f0ac-be28-4c60-9152-6931b8394c65")
-	)
 	(label "MOTOR4_CTRL2"
 		(at 186.69 158.75 0)
 		(effects
@@ -11723,15 +12125,15 @@
 		)
 		(uuid "50652dd4-b5ff-44a0-bee5-f18fae112fad")
 	)
-	(label "MOTOR4_CTRL2"
-		(at 513.08 54.61 0)
+	(label "MOTOR3_CTRL2"
+		(at 488.95 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "52d0c0e6-5ac3-4fce-860d-a315996240fb")
+		(uuid "536f6c56-d765-433f-bcae-fbce0db7375a")
 	)
 	(label "Switch-"
 		(at 69.85 332.74 270)
@@ -11754,17 +12156,7 @@
 		(uuid "5e8bb1c5-03e6-486c-ba46-cd462d2d5d4b")
 	)
 	(label "3V3_M"
-		(at 544.83 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "63077fa9-27af-4006-bf7e-12f41acc4912")
-	)
-	(label "3V3_M"
-		(at 425.45 78.74 0)
+		(at 372.11 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11784,7 +12176,7 @@
 		(uuid "6d605f9f-adf0-4ee3-8c4c-6528bb8b8bd2")
 	)
 	(label "Battery"
-		(at 472.44 38.1 180)
+		(at 457.2 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11794,7 +12186,7 @@
 		(uuid "6ed162ff-0faf-4a4e-9c06-5154b2b789e3")
 	)
 	(label "MOTOR2_B_OUT"
-		(at 481.33 60.96 0)
+		(at 459.74 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11823,35 +12215,15 @@
 		)
 		(uuid "736076fb-7aae-459f-8d2c-4c5df728f899")
 	)
-	(label "3V3_M"
-		(at 471.17 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "740be871-a059-4516-880b-56028b5b4f9f")
-	)
-	(label "MOTOR1_CTRL1"
-		(at 441.96 100.33 0)
+	(label "MOTOR4_A_OUT"
+		(at 552.45 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "79466535-cea7-4117-9220-a6dda5270771")
-	)
-	(label "3V3_M"
-		(at 543.56 34.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7aea950e-a283-42a1-b353-f834d677230b")
+		(uuid "784333c0-ac50-4228-90b7-efc273190540")
 	)
 	(label "CTRL_EXT_LOAD1"
 		(at 154.94 179.07 0)
@@ -11863,15 +12235,15 @@
 		)
 		(uuid "7babea8f-909c-4501-81e1-3d8b7474e243")
 	)
-	(label "MOTOR3_B_OUT"
-		(at 554.99 105.41 0)
+	(label "MOTOR1_B_OUT"
+		(at 459.74 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "7e36d07d-9bc9-4b70-bc15-59a6836c8093")
+		(uuid "7e59851d-b986-4c93-820a-0af443845237")
 	)
 	(label "Battery"
 		(at 64.77 340.36 90)
@@ -11903,6 +12275,26 @@
 		)
 		(uuid "8b66090c-d92b-4782-9b85-4714504b257c")
 	)
+	(label "MOTOR3_A_OUT"
+		(at 553.72 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e68e72f-afa8-4f96-86f2-d293fd417db2")
+	)
+	(label "Battery"
+		(at 549.91 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "905614ac-388c-47f3-b04c-e315d376e46e")
+	)
 	(label "MOTOR1_B_OUT"
 		(at 156.21 186.69 0)
 		(effects
@@ -11933,16 +12325,6 @@
 		)
 		(uuid "a1bbea7e-72cb-4ba2-84a6-7595ab12ff26")
 	)
-	(label "MOTOR1_B_OUT"
-		(at 482.6 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aa077dc1-6b6d-4ad7-a57d-3a202609d59f")
-	)
 	(label "CTRL_EXT_LOAD1"
 		(at 27.94 236.22 0)
 		(effects
@@ -11953,28 +12335,28 @@
 		)
 		(uuid "acebb590-72fa-427d-9d95-7b49f5544b6b")
 	)
-	(label "MOTOR4_CTRL1"
-		(at 513.08 52.07 0)
+	(label "MOTOR4_B_OUT"
+		(at 552.45 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b17332ed-3f0d-4beb-b357-0b24ac39ca2c")
+		(uuid "b08e5cb3-7191-4ab6-835e-7bd063012a37")
 	)
-	(label "MOTOR3_CTRL1"
-		(at 514.35 97.79 0)
+	(label "3V3_M"
+		(at 457.2 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "b5f59295-e638-4eb7-8da2-8c4ee4c5fa2a")
+		(uuid "b5371dc2-b64a-46ad-8f0f-74eef704b763")
 	)
 	(label "MOTOR2_A_OUT"
-		(at 490.22 45.72 0)
+		(at 459.74 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11992,16 +12374,6 @@
 			(justify left bottom)
 		)
 		(uuid "ba65116f-59a4-4c36-b1c5-ef0fcf28d93d")
-	)
-	(label "Battery"
-		(at 544.83 36.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bf0f2708-ff43-4d58-bde5-93d05a1fb6d5")
 	)
 	(label "Switch-"
 		(at 21.59 50.8 180)
@@ -12023,6 +12395,16 @@
 		)
 		(uuid "cc349d00-3422-4539-bf88-a197876b3785")
 	)
+	(label "MOTOR1_CTRL1"
+		(at 394.97 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cea29179-2e56-47c1-921d-c2edc1b17e4e")
+	)
 	(label "CC1"
 		(at 185.42 214.63 180)
 		(effects
@@ -12043,6 +12425,16 @@
 		)
 		(uuid "d81603ef-2596-40cc-9d7a-69eb4f4b8c7a")
 	)
+	(label "MOTOR3_B_OUT"
+		(at 553.72 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9818a7a-db63-40e0-a865-9fa8cc9686ab")
+	)
 	(label "Batt+"
 		(at 43.18 172.72 0)
 		(effects
@@ -12054,6 +12446,16 @@
 		(uuid "dcaf632f-84af-4e54-ab32-b326c1d45a5b")
 	)
 	(label "Battery"
+		(at 457.2 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ddd76d9e-92dc-4fff-8336-0af3016222c8")
+	)
+	(label "Battery"
 		(at 43.18 158.75 0)
 		(effects
 			(font
@@ -12062,56 +12464,6 @@
 			(justify left bottom)
 		)
 		(uuid "e568501c-4458-4e25-856d-ead9c53f5de5")
-	)
-	(label "Battery"
-		(at 546.1 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e69cf6a5-7e1f-4014-8abb-36176a423694")
-	)
-	(label "3V3_M"
-		(at 472.44 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ea8ebf6d-7212-49de-aa0a-c2512d19db07")
-	)
-	(label "MOTOR1_CTRL2"
-		(at 441.96 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eace97f3-8796-45ff-8ebb-22b3e7542488")
-	)
-	(label "Battery"
-		(at 473.71 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ee2cc9b2-3cd5-4704-bf56-65812d4646fe")
-	)
-	(label "MOTOR3_A_OUT"
-		(at 554.99 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eed63441-fa91-4493-b984-2c3c6a691d14")
 	)
 	(label "I2C1_SDA"
 		(at 116.84 160.02 0)
@@ -12123,16 +12475,6 @@
 		)
 		(uuid "f0050d1f-38e0-429c-8503-403fdf6c003b")
 	)
-	(label "MOTOR4_A_OUT"
-		(at 562.61 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f28ef131-005c-4466-9962-5b2d46d896f3")
-	)
 	(label "D+"
 		(at 189.23 228.6 180)
 		(effects
@@ -12142,6 +12484,16 @@
 			(justify right bottom)
 		)
 		(uuid "f29e6a56-120d-4d7d-821f-8a526667ae7f")
+	)
+	(label "3V3_M"
+		(at 457.2 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f334eb84-476e-497c-9188-df0ee78d63cd")
 	)
 	(label "FAST_CHARGE_CTRL"
 		(at 152.4 163.83 0)
@@ -12154,7 +12506,7 @@
 		(uuid "f5406aa8-3ab8-4323-afbb-fcf604324f44")
 	)
 	(label "MOTOR2_CTRL2"
-		(at 440.69 55.88 0)
+		(at 394.97 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12469,72 +12821,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 467.36 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "087a530d-3182-4dad-9d75-02e49373b5c8")
-		(property "Reference" "#PWR09"
-			(at 467.36 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 467.36 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 467.36 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 467.36 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 467.36 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7eea2c5d-affb-4bdf-86fe-7df60f25e7a8")
-		)
-		(instances
-			(project ""
-				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Battery_Management:TP4056-42-ESOP8")
 		(at 375.92 177.8 0)
 		(unit 1)
@@ -12620,97 +12906,6 @@
 			(project ""
 				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Driver_Motor:DRV8837")
-		(at 468.63 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b5a09e4-2d9a-45f5-9516-c4cfe510beea")
-		(property "Reference" "U8"
-			(at 470.7733 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DRV8837"
-			(at 470.7733 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "custom_footprints:SON50P200X200X80-9N"
-			(at 468.63 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8837.pdf"
-			(at 468.63 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "H-Bridge driver, 1.8A, Low Voltage, PWM input, WSON-8"
-			(at 468.63 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "b498b28f-87c8-477b-82c9-dad7efc1c355")
-		)
-		(pin "9"
-			(uuid "84d10106-40cb-4955-8508-fbf5d6aecbf2")
-		)
-		(pin "2"
-			(uuid "cec7c932-c315-4b1d-ad50-83494f052ddf")
-		)
-		(pin "3"
-			(uuid "a05d446f-fe1f-43d9-8fcf-534fc7d23884")
-		)
-		(pin "7"
-			(uuid "b0c781be-82be-41b1-90ee-6f73810e4bfb")
-		)
-		(pin "8"
-			(uuid "5a8e270d-282f-4814-b59b-17aac4e937c1")
-		)
-		(pin "1"
-			(uuid "4a8eacec-3185-4216-989b-affb35258e18")
-		)
-		(pin "5"
-			(uuid "9643aaad-27bc-40b7-b7a6-e84027904f86")
-		)
-		(pin "6"
-			(uuid "a91c7b8b-8256-4fe1-aaa7-a11909490f66")
-		)
-		(instances
-			(project "EEE3088F Power Board"
-				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
-					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -13110,72 +13305,6 @@
 			(project "EEE3088F Power Board"
 				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
 					(reference "TP_P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 539.75 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "105de98e-4ab6-4d98-b9d8-16b3d9ec49ce")
-		(property "Reference" "#PWR010"
-			(at 539.75 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 539.75 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 539.75 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 539.75 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 539.75 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8bb5be50-e465-48fe-9142-27c949254009")
-		)
-		(instances
-			(project "EEE3088F Power Board"
-				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -13861,97 +13990,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Driver_Motor:DRV8837")
-		(at 467.36 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b3d9208-9716-4981-bd7e-cc054a81e9d4")
-		(property "Reference" "U4"
-			(at 469.5033 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DRV8837"
-			(at 469.5033 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "custom_footprints:SON50P200X200X80-9N"
-			(at 467.36 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8837.pdf"
-			(at 467.36 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "H-Bridge driver, 1.8A, Low Voltage, PWM input, WSON-8"
-			(at 467.36 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "35ba3855-c621-46a8-a530-ea2565ce4d36")
-		)
-		(pin "9"
-			(uuid "51b4bca0-a091-490f-8abf-f31e0024daca")
-		)
-		(pin "2"
-			(uuid "cc351f1d-8b47-4eb2-8d85-ca4ee91c3646")
-		)
-		(pin "3"
-			(uuid "febb9ba5-78f4-4357-b29c-198bfb7ba90c")
-		)
-		(pin "7"
-			(uuid "84837e55-c422-4f0c-b36e-cedc44916331")
-		)
-		(pin "8"
-			(uuid "569a175d-585b-467a-be72-9d320a751c84")
-		)
-		(pin "1"
-			(uuid "2e3bd49f-fd52-4873-996d-1860fa0e004c")
-		)
-		(pin "5"
-			(uuid "e0b2b331-8ac9-4fb8-8e34-a1355ce3823a")
-		)
-		(pin "6"
-			(uuid "a9946d7a-6393-4ff8-8e37-0a572c2f6fbd")
-		)
-		(instances
-			(project ""
-				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 312.42 158.75 270)
 		(unit 1)
@@ -14298,97 +14336,6 @@
 			(project "EEE3088F Power Board"
 				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
 					(reference "R_C_dd1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Driver_Motor:DRV8837")
-		(at 539.75 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22928bfc-ac01-4058-aa03-8588707a9dae")
-		(property "Reference" "U5"
-			(at 541.8933 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DRV8837"
-			(at 541.8933 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "custom_footprints:SON50P200X200X80-9N"
-			(at 539.75 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8837.pdf"
-			(at 539.75 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "H-Bridge driver, 1.8A, Low Voltage, PWM input, WSON-8"
-			(at 539.75 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "69e7e880-b553-4213-8e94-4d65499d56c8")
-		)
-		(pin "5"
-			(uuid "10614420-84ae-40cc-9917-662a4f4767ee")
-		)
-		(pin "8"
-			(uuid "6b4d0979-ea19-4404-ace7-bda1756e262c")
-		)
-		(pin "1"
-			(uuid "7e5f9bae-7c4b-47bd-9102-304b9a91217a")
-		)
-		(pin "4"
-			(uuid "c7da2917-ef4c-42e7-b723-533c13457307")
-		)
-		(pin "9"
-			(uuid "ee668101-68bf-4cc1-b5fb-aeeab67c68ed")
-		)
-		(pin "2"
-			(uuid "a98c99e4-bf74-4a08-acf9-32392e0fa2a3")
-		)
-		(pin "3"
-			(uuid "7eb3918e-0239-4d6d-81cb-34e1259b19c1")
-		)
-		(pin "7"
-			(uuid "c5b260fb-51ff-4c87-9565-02a8467b8a8f")
-		)
-		(instances
-			(project ""
-				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -15141,6 +15088,166 @@
 			(project ""
 				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
 					(reference "C_I(in)1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_symbols:DRV8837DSGR")
+		(at 429.26 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2dfceaa5-4bcf-4203-9ebc-5f47629d060f")
+		(property "Reference" "U12"
+			(at 429.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DRV8837DSGR"
+			(at 429.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom_footprints:SON50P200X200X80-9N"
+			(at 429.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 429.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 429.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "296-34806-2-ND"
+			(at 429.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DRV8837DSGR/Texas+Instruments/view-part/?ref=snap"
+			(at 429.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "12-V, 1.8-A H-bridge motor driver"
+			(at 429.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 429.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "WSON-8 Texas Instruments"
+			(at 429.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/DRV8837DSGR/Texas+Instruments/view-part/?ref=eda"
+			(at 429.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "DRV8837DSGR"
+			(at 429.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "e74fc502-9cba-456d-b637-fda0f129f7c8")
+		)
+		(pin "8"
+			(uuid "096edabf-a5c3-41c1-822d-09ac9959bd5d")
+		)
+		(pin "2"
+			(uuid "a3b4de85-f806-43fc-9497-538ece2f41be")
+		)
+		(pin "6"
+			(uuid "56a34d1d-6572-435f-ae53-4b7a8ff75ee9")
+		)
+		(pin "3"
+			(uuid "e096c12b-005a-4578-b2d6-30940a8da11f")
+		)
+		(pin "7"
+			(uuid "cf45f267-0c9e-424d-b53e-f994a3554cb3")
+		)
+		(pin "9"
+			(uuid "f277f8f2-695a-48d2-bcd9-eb69b0422039")
+		)
+		(pin "1"
+			(uuid "87904a31-b55f-4c54-ac7b-403be115942b")
+		)
+		(pin "5"
+			(uuid "89dee4af-b783-4cda-a3b8-4fc2bee669fc")
+		)
+		(instances
+			(project "EEE3088F Power Board"
+				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -15921,6 +16028,166 @@
 		)
 	)
 	(symbol
+		(lib_id "Custom_symbols:DRV8837DSGR")
+		(at 523.24 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4475353a-e85d-4b44-891b-dab738455f2e")
+		(property "Reference" "U13"
+			(at 523.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DRV8837DSGR"
+			(at 523.24 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom_footprints:SON50P200X200X80-9N"
+			(at 523.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 523.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 523.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "296-34806-2-ND"
+			(at 523.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DRV8837DSGR/Texas+Instruments/view-part/?ref=snap"
+			(at 523.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "12-V, 1.8-A H-bridge motor driver"
+			(at 523.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 523.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "WSON-8 Texas Instruments"
+			(at 523.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/DRV8837DSGR/Texas+Instruments/view-part/?ref=eda"
+			(at 523.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "DRV8837DSGR"
+			(at 523.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "70dfab7d-13b3-4ea8-a40a-840e7fff46d5")
+		)
+		(pin "8"
+			(uuid "f21a465b-9dde-4c98-96d9-7082c22441f2")
+		)
+		(pin "2"
+			(uuid "1cfca8d9-bf8e-4fb1-b2ce-ef0e84be1572")
+		)
+		(pin "6"
+			(uuid "4d9c3ba5-2045-4166-a9cd-6b199fafe124")
+		)
+		(pin "3"
+			(uuid "49bb9b82-5190-4d7d-9eeb-63a315aa4a59")
+		)
+		(pin "7"
+			(uuid "a74bc8fd-f4ee-44d7-bcb6-13ae99579ca2")
+		)
+		(pin "9"
+			(uuid "56efbb0e-434e-47bb-9e13-3d875726a910")
+		)
+		(pin "1"
+			(uuid "4e16f1af-2fb5-4627-8f75-84a01d07c7f4")
+		)
+		(pin "5"
+			(uuid "7be76f27-5e39-4ac1-9ee2-b2e3c20b0c46")
+		)
+		(instances
+			(project "EEE3088F Power Board"
+				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 55.88 58.42 180)
 		(unit 1)
@@ -16348,6 +16615,72 @@
 			(project ""
 				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 449.58 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53b0ef5e-775a-469e-a599-56d65fa1dee8")
+		(property "Reference" "#PWR052"
+			(at 449.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 449.58 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 449.58 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 449.58 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 449.58 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0307f23-2f50-48ee-8c7f-90af645b9661")
+		)
+		(instances
+			(project "EEE3088F Power Board"
+				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -18570,6 +18903,166 @@
 		)
 	)
 	(symbol
+		(lib_id "Custom_symbols:DRV8837DSGR")
+		(at 521.97 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8eb7dfb9-9780-428b-81c8-6f17dd18c1b3")
+		(property "Reference" "U11"
+			(at 521.97 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DRV8837DSGR"
+			(at 521.97 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom_footprints:SON50P200X200X80-9N"
+			(at 521.97 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 521.97 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 521.97 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "296-34806-2-ND"
+			(at 521.97 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DRV8837DSGR/Texas+Instruments/view-part/?ref=snap"
+			(at 521.97 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "12-V, 1.8-A H-bridge motor driver"
+			(at 521.97 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 521.97 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "WSON-8 Texas Instruments"
+			(at 521.97 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/DRV8837DSGR/Texas+Instruments/view-part/?ref=eda"
+			(at 521.97 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "DRV8837DSGR"
+			(at 521.97 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "846bfd15-78f1-4a30-8bf3-e90560e524b2")
+		)
+		(pin "8"
+			(uuid "be182dd7-1091-471a-a9f7-40b8ee7e626f")
+		)
+		(pin "2"
+			(uuid "02eea929-4974-4817-afef-fdd0584f6219")
+		)
+		(pin "6"
+			(uuid "63fdbe16-e648-43a4-b9e5-5f9e7fca469d")
+		)
+		(pin "3"
+			(uuid "5d705288-23ab-48c7-949f-ff5b7c0f562c")
+		)
+		(pin "7"
+			(uuid "c9c7baa5-8be4-4cbe-bd9d-286339bf1a2e")
+		)
+		(pin "9"
+			(uuid "de9e61bf-f84a-401e-841a-cf011ad99b59")
+		)
+		(pin "1"
+			(uuid "9869ebab-93b3-490e-9451-7638ad0406e1")
+		)
+		(pin "5"
+			(uuid "e93fa7a4-b82a-4c54-8dec-c49bf90e9c2a")
+		)
+		(instances
+			(project "EEE3088F Power Board"
+				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 335.28 186.69 0)
 		(unit 1)
@@ -18700,6 +19193,72 @@
 			(project "EEE3088F Power Board"
 				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
 					(reference "R_I2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 543.56 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91080488-3491-4d5e-b174-6fc5341d3403")
+		(property "Reference" "#PWR055"
+			(at 543.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 543.56 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 543.56 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 543.56 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 543.56 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8853cd45-3ad7-4a2d-8608-c41e34232577")
+		)
+		(instances
+			(project "EEE3088F Power Board"
+				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -18911,76 +19470,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:B340")
-		(at 279.4 147.32 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97e3e5e9-9a69-4e42-9e11-2172829ca407")
-		(property "Reference" "D1"
-			(at 281.94 145.7324 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "B340"
-			(at 281.94 148.2724 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "custom_footprints:SMA-DIODE"
-			(at 274.955 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf"
-			(at 279.4 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 3A Schottky Barrier Rectifier Diode, SMC"
-			(at 279.4 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5cd11957-5a95-472b-89d0-0423e67f3c91")
-		)
-		(pin "2"
-			(uuid "4f061d2d-7998-43e7-8b0d-0d1f4febd1ea")
-		)
-		(instances
-			(project ""
-				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Interface_USB:CH224K")
 		(at 210.82 251.46 0)
 		(unit 1)
@@ -19072,97 +19561,6 @@
 			(project ""
 				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
 					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Driver_Motor:DRV8837")
-		(at 541.02 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0562594-1091-478b-96ef-1f70181154b4")
-		(property "Reference" "U6"
-			(at 543.1633 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DRV8837"
-			(at 543.1633 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "custom_footprints:SON50P200X200X80-9N"
-			(at 541.02 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8837.pdf"
-			(at 541.02 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "H-Bridge driver, 1.8A, Low Voltage, PWM input, WSON-8"
-			(at 541.02 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "a263f7be-7aa5-4cbf-9820-41adb203d1c8")
-		)
-		(pin "9"
-			(uuid "61b59158-030d-40cb-9fa6-5f5db725968b")
-		)
-		(pin "2"
-			(uuid "89e3646f-6fa9-4bfd-91b1-ece83c88ffd0")
-		)
-		(pin "3"
-			(uuid "6f6b02f2-7766-4eb4-9acc-fc82feab8bbe")
-		)
-		(pin "7"
-			(uuid "91b637cc-961f-463b-8676-8e9d523475e9")
-		)
-		(pin "8"
-			(uuid "726a0cdc-91d2-451e-8642-f2b8fca384ee")
-		)
-		(pin "1"
-			(uuid "9fe0f780-a14f-4c42-98cf-3ec789c854a2")
-		)
-		(pin "5"
-			(uuid "67e9dd1e-a344-481a-a033-00c9707a0475")
-		)
-		(pin "6"
-			(uuid "a031e1a7-c037-4a5a-af07-577dfeea838f")
-		)
-		(instances
-			(project "EEE3088F Power Board"
-				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
-					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -19299,6 +19697,166 @@
 		)
 	)
 	(symbol
+		(lib_id "Custom_symbols:DRV8837DSGR")
+		(at 429.26 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a344a43b-9d06-4aaa-a213-9c2eb68fb742")
+		(property "Reference" "U10"
+			(at 429.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DRV8837DSGR"
+			(at 429.26 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom_footprints:SON50P200X200X80-9N"
+			(at 429.26 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 429.26 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 429.26 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "296-34806-2-ND"
+			(at 429.26 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DRV8837DSGR/Texas+Instruments/view-part/?ref=snap"
+			(at 429.26 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "12-V, 1.8-A H-bridge motor driver"
+			(at 429.26 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 429.26 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "WSON-8 Texas Instruments"
+			(at 429.26 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/DRV8837DSGR/Texas+Instruments/view-part/?ref=eda"
+			(at 429.26 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "DRV8837DSGR"
+			(at 429.26 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "80ec1f9c-9070-4b2d-8f38-d6698eb1e04e")
+		)
+		(pin "8"
+			(uuid "618898fe-51b5-412e-a419-92bf0350a25c")
+		)
+		(pin "2"
+			(uuid "41804060-3ab6-4c42-a9de-fa0f6228e88a")
+		)
+		(pin "6"
+			(uuid "bef4c1b7-3bd6-4457-9729-96aa2a1f35e9")
+		)
+		(pin "3"
+			(uuid "3609d2fd-02ce-4183-a5f1-4911379b6e63")
+		)
+		(pin "7"
+			(uuid "15e7c6ac-df15-4cad-996b-dc674b9f9ba9")
+		)
+		(pin "9"
+			(uuid "47fd0100-95ca-490c-8f22-8a9d7fa71038")
+		)
+		(pin "1"
+			(uuid "146f5a57-fff5-409f-a167-795ce753024b")
+		)
+		(pin "5"
+			(uuid "6f85a658-fdb2-4b3e-a265-12df9e525989")
+		)
+		(instances
+			(project ""
+				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 222.25 152.4 0)
 		(unit 1)
@@ -19427,72 +19985,6 @@
 			(project ""
 				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
 					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 541.02 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7a6de83-ebb4-4d5c-a4b4-cadb40e6d572")
-		(property "Reference" "#PWR012"
-			(at 541.02 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 541.02 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 541.02 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 541.02 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 541.02 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e7558b1-baa5-466f-a5d1-714551cfc7e2")
-		)
-		(instances
-			(project "EEE3088F Power Board"
-				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -19792,7 +20284,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 425.45 63.5 0)
+		(at 372.11 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19801,7 +20293,7 @@
 		(fields_autoplaced yes)
 		(uuid "a98978f0-1aaa-4089-ada5-dadc7ccdd3cb")
 		(property "Reference" "#PWR033"
-			(at 425.45 67.31 0)
+			(at 372.11 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19810,7 +20302,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 425.45 58.42 0)
+			(at 372.11 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19818,7 +20310,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 425.45 63.5 0)
+			(at 372.11 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19827,7 +20319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 425.45 63.5 0)
+			(at 372.11 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19836,7 +20328,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 425.45 63.5 0)
+			(at 372.11 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20476,7 +20968,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 425.45 71.12 90)
+		(at 372.11 43.18 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -20484,7 +20976,7 @@
 		(dnp no)
 		(uuid "b7181534-df10-463b-9e51-646d7d95fb41")
 		(property "Reference" "JP_M_3V3"
-			(at 414.02 73.152 90)
+			(at 360.68 45.212 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20493,7 +20985,7 @@
 			)
 		)
 		(property "Value" "3V3_VM"
-			(at 416.56 70.866 90)
+			(at 363.22 42.926 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20502,7 +20994,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 425.45 71.12 0)
+			(at 372.11 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20511,7 +21003,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 425.45 71.12 0)
+			(at 372.11 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20520,7 +21012,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 425.45 71.12 0)
+			(at 372.11 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21088,6 +21580,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 449.58 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7018ca6-77cc-4073-ba0e-bec3b6a19235")
+		(property "Reference" "#PWR054"
+			(at 449.58 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 449.58 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 449.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 449.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 449.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e34e8cab-9a87-4cda-b524-07b9f9e711f5")
+		)
+		(instances
+			(project "EEE3088F Power Board"
+				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 234.95 242.57 0)
 		(unit 1)
@@ -21357,72 +21915,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 468.63 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cfe78c79-bcff-4fa1-a162-dc16a8902dfe")
-		(property "Reference" "#PWR011"
-			(at 468.63 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 468.63 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 468.63 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 468.63 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 468.63 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a373ba9b-04e6-4bac-869f-5a5e5aa66f59")
-		)
-		(instances
-			(project "EEE3088F Power Board"
-				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 309.88 275.59 180)
 		(unit 1)
@@ -21616,6 +22108,72 @@
 			(project ""
 				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 542.29 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7020f49-8140-4504-8bd5-f5154e557ecc")
+		(property "Reference" "#PWR053"
+			(at 542.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 542.29 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 542.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 542.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 542.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb7f7f7d-c6d2-4d88-b373-d71699aa11d7")
+		)
+		(instances
+			(project "EEE3088F Power Board"
+				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -22331,6 +22889,168 @@
 			(project ""
 				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_symbols:B340A")
+		(at 279.4 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1739e9b-7a35-4397-a315-44170a3ffcc4")
+		(property "Reference" "D4"
+			(at 281.94 147.0659 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BA340A"
+			(at 279.4 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "custom_footprints:SMA-DIODE"
+			(at 279.4 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 279.4 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Diodes Zetex"
+			(at 279.4 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Rectifier Diode Schottky 40V 3A 2-Pin SMA T/R"
+			(at 279.4 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 279.4 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 279.4 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/B340A/Diodes+Inc./view-part/?ref=eda"
+			(at 279.4 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "DIO-09886"
+			(at 279.4 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/B340A/Diodes+Inc./view-part/?ref=snap"
+			(at 279.4 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 279.4 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "B340A"
+			(at 279.4 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "139c825b-0594-482c-9b45-35d055341a9f")
+		)
+		(pin "C"
+			(uuid "8aceea52-3ee7-41a8-bb58-795e22360a91")
+		)
+		(instances
+			(project ""
+				(path "/713ead88-0bd2-43ee-981f-e11872ed406d"
+					(reference "D4")
 					(unit 1)
 				)
 			)

@@ -6893,6 +6893,16 @@
 		)
 		(uuid "548e0a06-be6c-4e44-ad02-580bea75bc95")
 	)
+	(text "Deleted redundant TP"
+		(exclude_from_sim no)
+		(at 115.316 244.094 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "578342f6-f021-41bf-9d3a-534acd2c9ec4")
+	)
 	(text "must still determine which inductor. REQ:\nValue = 1u\nLow Sat current\nDCR"
 		(exclude_from_sim no)
 		(at 148.59 34.798 0)
@@ -7298,7 +7308,7 @@
 		)
 		(uuid "c8f1b644-3d73-490c-ad86-e6fc02165c78")
 	)
-	(text "Tam\nthurs 9:50am"
+	(text "Tam\nthurs 9:50am\nGlen: 12:28"
 		(exclude_from_sim no)
 		(at 415.29 353.568 0)
 		(effects
@@ -7454,12 +7464,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ee34410-3bd8-4512-8a63-7ae4b4ba3633")
-	)
-	(junction
-		(at 101.6 245.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "214e76db-b6eb-40aa-a576-6b767e9cbd3f")
 	)
 	(junction
 		(at 264.16 308.61)
@@ -10661,16 +10665,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 245.11) (xy 109.22 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b326c17b-f824-4b48-bf52-b846e6f8f193")
-	)
-	(wire
-		(pts
 			(xy 152.4 57.15) (xy 160.02 57.15)
 		)
 		(stroke
@@ -12617,73 +12611,6 @@
 			(project "Power_Board_3088F"
 				(path "/5c7d371d-807a-42c2-8c94-eee361c0fe38"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 109.22 245.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "04faca27-249e-4417-b87d-e1ade209e04b")
-		(property "Reference" "TP21"
-			(at 111.76 240.5379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 111.76 243.0779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 114.3 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 109.22 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d5f143f-6e88-4fdc-b679-bbbd23904209")
-		)
-		(instances
-			(project "Power_Board_3088F"
-				(path "/5c7d371d-807a-42c2-8c94-eee361c0fe38"
-					(reference "TP21")
 					(unit 1)
 				)
 			)

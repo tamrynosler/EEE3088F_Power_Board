@@ -2136,42 +2136,26 @@
 			(embedded_fonts no)
 		)
 		(symbol "Custom_symbols:B340A"
-			(pin_names
-				(offset 1.016)
-			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 2.5422 0.483 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "BA340A"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
-					(hide yes)
 				)
 			)
-			(property "Footprint" "B340A:SMA-DIODE"
+			(property "Value" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Footprint" "B340A:SMA_L4.3-W2.6-LS5.1-RD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2180,7 +2164,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20240710/591710C3B34CDB7FE3DA92C119E6F598.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2189,114 +2173,68 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Diodes Zetex"
+			(property "Description" "Diode Configuration:Independent Type Forward Voltage (Vf@If):550mV@3A Reverse Voltage (Vr):40V Rectified Current:3A Reverse Leakage Current (Ir):500uA@40V"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Description_1" "Rectifier Diode Schottky 40V 3A 2-Pin SMA T/R"
+			(property "Manufacturer Part" "B340A"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Package" "None"
+			(property "Manufacturer" "MDD(辰达半导体)"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Price" "None"
+			(property "Supplier Part" "C64982"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/B340A/Diodes+Inc./view-part/?ref=eda"
+			(property "Supplier" "LCSC"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" "DIO-09886"
+			(property "LCSC Part Name" "电压:40V 电流:3A"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/B340A/Diodes+Inc./view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "B340A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "B340A_0_0"
-				(rectangle
-					(start -1.27 -1.27)
-					(end 1.27 1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
+			(symbol "B340A_1_0"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy 1.27 0)
+						(xy -2.032 1.524) (xy -2.032 1.778) (xy -2.032 1.778) (xy -1.524 1.778) (xy -1.524 1.778) (xy -1.524 -2.032)
+						(xy -1.524 -2.032) (xy -1.016 -2.032) (xy -1.016 -2.032) (xy -1.016 -1.778)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -2305,72 +2243,48 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.778 1.524)
+						(xy 1.27 1.524) (xy -1.27 0) (xy -1.27 0) (xy 1.27 -1.778) (xy 1.27 -1.778) (xy 1.27 1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 0.762 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "~"
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "K"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 0.0254 0.0254)
 							)
 						)
 					)
-					(number "A"
+					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 0.0254 0.0254)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "~"
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "A"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 0.0254 0.0254)
 							)
 						)
 					)
-					(number "C"
+					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 0.0254 0.0254)
 							)
 						)
 					)
@@ -7137,7 +7051,7 @@
 	)
 	(text "B340A"
 		(exclude_from_sim no)
-		(at 387.858 214.122 0)
+		(at 387.096 216.154 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7927,6 +7841,12 @@
 		(uuid "e5ac253a-9af2-497b-9bdf-b1f12bc5c86d")
 	)
 	(junction
+		(at 382.27 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8dba276-18b2-44c8-ac42-604f98459bf4")
+	)
+	(junction
 		(at 85.09 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7955,12 +7875,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7a0cf9f-1212-460e-94b0-43915560b9b5")
-	)
-	(junction
-		(at 382.27 215.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe062e41-b184-407c-bbb2-65fba1991589")
 	)
 	(no_connect
 		(at 257.81 215.9)
@@ -8518,7 +8432,7 @@
 	)
 	(wire
 		(pts
-			(xy 400.05 214.63) (xy 400.05 215.9)
+			(xy 400.05 214.63) (xy 400.05 218.44)
 		)
 		(stroke
 			(width 0)
@@ -8595,6 +8509,16 @@
 			(type default)
 		)
 		(uuid "28b7dd60-5239-495b-ab40-f9ad88e5a4d4")
+	)
+	(wire
+		(pts
+			(xy 382.27 209.55) (xy 382.27 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2918406d-7cec-423a-b4f4-80d4e19894d2")
 	)
 	(wire
 		(pts
@@ -9588,7 +9512,7 @@
 	)
 	(wire
 		(pts
-			(xy 400.05 215.9) (xy 382.27 215.9)
+			(xy 400.05 218.44) (xy 382.27 218.44)
 		)
 		(stroke
 			(width 0)
@@ -9868,16 +9792,6 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 208.28) (xy 382.27 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77c92df2-dce2-4232-917e-dd19ade03f7c")
-	)
-	(wire
-		(pts
 			(xy 229.87 241.3) (xy 245.11 241.3)
 		)
 		(stroke
@@ -10145,6 +10059,16 @@
 			(type default)
 		)
 		(uuid "87e81a1a-6c7f-4b64-95d2-bebfb6cb16fb")
+	)
+	(wire
+		(pts
+			(xy 382.27 219.71) (xy 382.27 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "885a7f1d-73e5-4ea8-baab-45cb252f72d3")
 	)
 	(wire
 		(pts
@@ -10725,16 +10649,6 @@
 			(type default)
 		)
 		(uuid "b125b9e8-cfeb-4ebc-b530-b07dc831588e")
-	)
-	(wire
-		(pts
-			(xy 382.27 214.63) (xy 382.27 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1cbcc53-68e5-4621-beb6-17002cfb42a9")
 	)
 	(wire
 		(pts
@@ -12741,7 +12655,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 382.27 215.9 0)
+		(at 382.27 219.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12750,7 +12664,7 @@
 		(fields_autoplaced yes)
 		(uuid "060f9a27-b556-45db-a4be-d39fb2752692")
 		(property "Reference" "#PWR059"
-			(at 382.27 222.25 0)
+			(at 382.27 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12759,7 +12673,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 382.27 220.98 0)
+			(at 382.27 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12767,7 +12681,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 382.27 215.9 0)
+			(at 382.27 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12776,7 +12690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 382.27 215.9 0)
+			(at 382.27 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12785,7 +12699,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 382.27 215.9 0)
+			(at 382.27 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21292,7 +21206,7 @@
 	)
 	(symbol
 		(lib_id "Custom_symbols:B340A")
-		(at 382.27 212.09 90)
+		(at 382.27 214.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21301,16 +21215,16 @@
 		(fields_autoplaced yes)
 		(uuid "bcfe5455-12c2-4d23-9282-dee5de4ba44c")
 		(property "Reference" "D7"
-			(at 384.81 211.8359 90)
+			(at 384.81 214.2489 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "BA340A"
-			(at 382.27 212.09 0)
+			(at 382.27 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21319,18 +21233,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "custom_footprints:SMA-DIODE"
-			(at 382.27 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 382.27 212.09 0)
+		(property "Footprint" "custom_footprints:B340A"
+			(at 382.27 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21338,8 +21242,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 382.27 212.09 0)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20240710/591710C3B34CDB7FE3DA92C119E6F598.pdf"
+			(at 382.27 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode Configuration:Independent Type Forward Voltage (Vf@If):550mV@3A Reverse Voltage (Vr):40V Rectified Current:3A Reverse Leakage Current (Ir):500uA@40V"
+			(at 382.27 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21348,7 +21261,7 @@
 			)
 		)
 		(property "MF" "Diodes Zetex"
-			(at 382.27 212.09 0)
+			(at 382.27 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21358,7 +21271,7 @@
 			)
 		)
 		(property "Description_1" "Rectifier Diode Schottky 40V 3A 2-Pin SMA T/R"
-			(at 382.27 212.09 0)
+			(at 382.27 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21368,7 +21281,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 382.27 212.09 0)
+			(at 382.27 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21378,7 +21291,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 382.27 212.09 0)
+			(at 382.27 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21388,7 +21301,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/B340A/Diodes+Inc./view-part/?ref=eda"
-			(at 382.27 212.09 0)
+			(at 382.27 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21398,7 +21311,7 @@
 			)
 		)
 		(property "PROD_ID" "DIO-09886"
-			(at 382.27 212.09 0)
+			(at 382.27 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21408,7 +21321,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/B340A/Diodes+Inc./view-part/?ref=snap"
-			(at 382.27 212.09 0)
+			(at 382.27 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21418,7 +21331,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 382.27 212.09 0)
+			(at 382.27 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21428,7 +21341,7 @@
 			)
 		)
 		(property "MP" "B340A"
-			(at 382.27 212.09 0)
+			(at 382.27 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21437,10 +21350,55 @@
 				(hide yes)
 			)
 		)
-		(pin "A"
+		(property "Manufacturer Part" "B340A"
+			(at 382.27 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MDD(辰达半导体)"
+			(at 382.27 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C64982"
+			(at 382.27 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 382.27 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "电压:40V 电流:3A"
+			(at 382.27 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "d55d4b25-3673-4cdd-89de-c14a12af2d39")
 		)
-		(pin "C"
+		(pin "2"
 			(uuid "3f07e391-1154-4f3a-8d58-62618d0d1501")
 		)
 		(instances

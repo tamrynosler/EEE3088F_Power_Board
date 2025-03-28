@@ -1,4 +1,4 @@
-24747806824881649
+24758379305536903
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +13,13 @@ audio belton reverb
 0
 7
 7
+B340A
+SMA-DIODE
+<B>Diode</B><p>Basic SMA packaged diode. Good for reverse polarization protection. Common part #: MBRA140
+
+0
+2
+2
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -55229,6 +55236,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+DRV8837DSGR
+SON50P200X200X80-9N
+
+
+0
+11
+11
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -58435,6 +58449,13 @@ heatsink
 0
 0
 0
+Imported_Files
+IC_AP22966DC8-7
+
+
+0
+11
+11
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -65848,6 +65869,13 @@ Yellow 5381 Series LED
 0
 2
 2
+LM2596SX-5.0_NOPB
+VREG_LM2596SX-5.0_NOPB
+
+
+0
+6
+6
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -92868,6 +92896,13 @@ Logo WEEE
 0
 0
 0
+TP4056-42-ESOP8
+SOIC127P600X175-9N
+
+
+0
+9
+9
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -99508,6 +99543,13 @@ Varistor
 Varistor_Panasonic_VF
 Panasonic VF series varistor, 6x8mm body, 3.2mm height, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AWA0000/AWA0000C4.pdf
 Varistor VF
+0
+2
+2
+custom_footprints
+B340A
+
+
 0
 2
 2
